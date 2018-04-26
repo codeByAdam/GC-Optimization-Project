@@ -25,6 +25,9 @@ public class Driver {
 
             cmd.add("java");
             cmd.add(types[i]);
+            cmd.add("-XX:+PrintGCTimeStamps");
+            cmd.add("-XX:+PrintGCDetails");
+            cmd.add("-Xloggc:results/gc/" + types[i] + "_" + "startup.helloworld.txt");
             cmd.add("-jar");
             cmd.add("SPECjvm2008.jar");
             cmd.add("startup.helloworld");
