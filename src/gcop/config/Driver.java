@@ -24,7 +24,7 @@ public class Driver {
             List<String> cmd = new ArrayList<>();
 
             cmd.add("java");
-            cmd.add(types[i]);
+            cmd.add("-XX:+" + types[i]);
             cmd.add("-XX:+PrintGCTimeStamps");
             cmd.add("-XX:+PrintGCDetails");
             cmd.add("-Xloggc:results/gc/" + types[i] + "_" + "startup.helloworld.txt");

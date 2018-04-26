@@ -7,14 +7,14 @@ public class Type {
     public Type(){
 
         this.types = new String[]{
-                "-XX:+UseSerialGC",
-                "-XX:+UseParallelGC",
-                "-XX:+UseParallelOldGC",
-                "-XX:+UseConcMarkSweepGC",
-                "-XX:+UseParNewGC",
-                "-XX:+CMSParallelRemarkEnabled",
-                "-XX:+UseCMSInitiatingOccupancyOnly",
-                "-XX:+UseG1GC"
+                "UseSerialGC",
+                "UseParallelGC",
+                "UseParallelOldGC",
+                "UseConcMarkSweepGC",
+                "UseParNewGC",
+                "CMSParallelRemarkEnabled",
+                "UseCMSInitiatingOccupancyOnly",
+                "UseG1GC"
         };
 
     }
