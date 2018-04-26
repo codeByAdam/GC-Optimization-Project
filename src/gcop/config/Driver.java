@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.*;
 import java.lang.ProcessBuilder;
 import java.lang.Process;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.concurrent.ExecutionException;
 
 public class Driver {
@@ -11,58 +13,41 @@ public class Driver {
     public Driver(){
 
         Type type = new Type();
-        Flags flag = new Flags();
+
 
         String[] types = type.getTypes();
-        List<Flag> flags = flag.getFlagList();
 
-        String cmd = "";
-        String selectedType = "";
-
-        int itFlag = 0;
 
         //Start Iterations
         for(int i = 0; i < types.length; i++){
 
-            selectedType = types[i];
+            List<String> cmd = new ArrayList<>();
 
-            for(int j = 0; j < flags.size(); j++){
+            cmd.add("java");
+            cmd.add(types[i]);
+            cmd.add("-jar");
+            cmd.add("benchmarks/SPECjvm2008/SPECjvm2008.jar");
+            cmd.add("startup.compiler.compiler");
 
-                do {
-                    cmd = "java " + selectedType;
-                    cmd += " " + flags.get(j).getName() + "=" + flags.get(j).getVal();
-                    cmd += " -jar benchmarks/SPECjvm2008/SPECjvm2008.jar -ikv";
+            System.out.println(cmd);
 
-                    try {
-                        ProcessBuilder pb = new ProcessBuilder("java", selectedType, "-jar benchmarks/SPECjvm2008/SPECjvm2008.jar", "-ikv", "startup.helloworld");
-                        Process p = pb.start();
-                        System.out.println("PROCESS");
-
-                        try{
-                            p.waitFor();
-                        }catch(Exception d){
-                            d.printStackTrace();
-                        }
-
-                    }catch(IOException e){
-                        e.printStackTrace();
-                    }
-
-                    itFlag++;
-
-                    //run cmd
-                    System.out.println(cmd);
-
-                }while(flags.get(j).next());
-
-                flags.get(j).reset();
-
+            ProcessBuilder pb = new ProcessBuilder(cmd);
+            try {
+                Process p = pb.start();
+                BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
+                String s = "";
+                while((s = in.readLine()) != null){
+                    System.out.println(s);
+                }
+                int status = p.waitFor();
+                System.out.println("Exited with status: " + status);
+            }catch(IOException e){
+                e.printStackTrace();
+            }catch(InterruptedException ee){
+                ee.printStackTrace();
             }
 
-
         }
-
-        System.out.println(itFlag);
 
     }
 
