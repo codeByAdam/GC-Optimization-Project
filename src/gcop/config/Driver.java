@@ -13,9 +13,11 @@ public class Driver {
     public Driver(){
 
         Type type = new Type();
+        Benchmark benchmark = new Benchmark();
 
 
         String[] types = type.getTypes();
+        String[] benchmarks = benchmark.getList();
 
 
         //Start Iterations
@@ -27,10 +29,12 @@ public class Driver {
             cmd.add("-XX:+" + types[i]);
             cmd.add("-XX:+PrintGCTimeStamps");
             cmd.add("-XX:+PrintGCDetails");
-            cmd.add("-Xloggc:results/gc/" + types[i] + "_" + "startup.helloworld.txt");
+            cmd.add("-XX:+PrintGCApplicationStoppedTime");
+            cmd.add("-XX:+PrintGCApplicationConcurrentTime");
+            cmd.add("-Xloggc:results/gc/" + types[i] + "_" + "derby.txt");
             cmd.add("-jar");
             cmd.add("SPECjvm2008.jar");
-            cmd.add("startup.helloworld");
+            cmd.add("derby");
 
             System.out.println(cmd);
 
