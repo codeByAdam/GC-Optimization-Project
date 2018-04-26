@@ -26,8 +26,8 @@ public class Driver {
             cmd.add("java");
             cmd.add(types[i]);
             cmd.add("-jar");
-            cmd.add("benchmarks/SPECjvm2008/SPECjvm2008.jar");
-            cmd.add("startup.compiler.compiler");
+            cmd.add("SPECjvm2008.jar");
+            cmd.add("startup.helloworld");
 
             System.out.println(cmd);
 
