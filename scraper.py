@@ -17,10 +17,11 @@ gclist = []
 
 def gcparse(line):
     var = GC()
-    #m1 = re.compile('\[*')
+    m1 = re.compile('\[*\] \[Times:')
 
-    #match = m1.findall(line)
-    #print(match)
+    match = m1.match(line)
+    if match is not None:
+        print(match.group())
 
     '''
     if line[0] == '[':
@@ -45,9 +46,9 @@ for i in logs:
                 if l[0] == 'Java':
                     continue
                 if l[0] == 'Memory:':
-                    print(l[1])
+                    continue
                 elif l[0] == 'CommandLine':
-                    print('flags')
+                    continue
                 else:
                     gcparse(l[1])
             else:  # heap stuff here
