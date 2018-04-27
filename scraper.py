@@ -34,11 +34,11 @@ def gcparse(line):
         var.cause = cause[0][1:-1]
     '''
 
-# TESTING
-logs = os.listdir('./logs')
+path = os.getcwd() + '/benchmarks/SPECjvm2008/results/gc'
+logs = os.listdir(path)
 
 for i in logs:
-    with open(f'logs/{i}') as f:
+    with open(f'{path}/{i}') as f:
         for line in f:
             l = line.strip().split(' ', 1)
             if len(l) == 2:
