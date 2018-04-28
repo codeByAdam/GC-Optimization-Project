@@ -8,7 +8,7 @@ public class Benchmark {
         this.benchmarks = new String[]{
                 "startup.helloworld",
                 "startup.compiler.compiler",
-                "startup.compiler.sunflow",
+                //"startup.compiler.sunflow",
                 "startup.compress",
                 "startup.crypto.aes",
                 "startup.crypto.rsa",
@@ -20,11 +20,11 @@ public class Benchmark {
                 "startup.scimark.sor",
                 "startup.scimark.sparse",
                 "startup.serial",
-                "startup.sunflow",
+                //"startup.sunflow",
                 "startup.xml.transform",
                 "startup.xml.validation",
                 "compiler.compiler",
-                "compiler.sunflow",
+                //"compiler.sunflow",
                 "compress",
                 "crypto.aes",
                 "crypto.rsa",
@@ -41,7 +41,7 @@ public class Benchmark {
                 "scimark.sparse.small",
                 "scimark.monte_carlo",
                 "serial",
-                "sunflow",
+                //"sunflow",
                 "xml.transform",
                 "xml.validation"
         };

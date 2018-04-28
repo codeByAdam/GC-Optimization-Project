@@ -1,0 +1,1203 @@
+Java HotSpot(TM) 64-Bit Server VM (24.80-b11) for linux-amd64 JRE (1.7.0_80-b15), built on Apr 10 2015 19:53:14 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+Memory: 4k page, physical 8000092k(6334080k free), swap 8218620k(8218620k free)
+CommandLine flags: -XX:InitialHeapSize=128001472 -XX:MaxHeapSize=2048023552 -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedOops -XX:+UseParallelGC 
+1.007: Application time: 0.9852390 seconds
+1.007: Total time for which application threads were stopped: 0.0000440 seconds, Stopping threads took: 0.0000110 seconds
+4.027: Application time: 3.0198710 seconds
+4.027: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000110 seconds
+14.690: Application time: 10.6629000 seconds
+14.690: Total time for which application threads were stopped: 0.0000230 seconds, Stopping threads took: 0.0000080 seconds
+14.690: Application time: 0.0000130 seconds
+14.690: Total time for which application threads were stopped: 0.0000070 seconds, Stopping threads took: 0.0000030 seconds
+14.691: Application time: 0.0013790 seconds
+14.691: Total time for which application threads were stopped: 0.0000120 seconds, Stopping threads took: 0.0000050 seconds
+14.711: Application time: 0.0197090 seconds
+14.711: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000100 seconds
+14.725: Application time: 0.0140380 seconds
+14.725: [GC [PSYoungGen: 10773K->3337K(36864K)] 10773K->3345K(119808K), 0.0021890 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+14.727: [Full GC [PSYoungGen: 3337K->0K(36864K)] [ParOldGen: 8K->3145K(82944K)] 3345K->3145K(119808K) [PSPermGen: 5076K->5074K(21504K)], 0.0114630 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+14.739: Total time for which application threads were stopped: 0.0137690 seconds, Stopping threads took: 0.0000050 seconds
+14.739: Application time: 0.0001070 seconds
+14.739: [GC [PSYoungGen: 0K->0K(36864K)] 3145K->3145K(119808K), 0.0003910 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+14.739: [Full GC [PSYoungGen: 0K->0K(36864K)] [ParOldGen: 3145K->3145K(82944K)] 3145K->3145K(119808K) [PSPermGen: 5074K->5074K(21504K)], 0.0041170 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+14.743: Total time for which application threads were stopped: 0.0046120 seconds, Stopping threads took: 0.0000190 seconds
+14.743: Application time: 0.0000760 seconds
+14.743: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000170 seconds
+14.743: Application time: 0.0000220 seconds
+14.743: Total time for which application threads were stopped: 0.0000160 seconds, Stopping threads took: 0.0000120 seconds
+14.743: Application time: 0.0000120 seconds
+14.743: Total time for which application threads were stopped: 0.0000160 seconds, Stopping threads took: 0.0000120 seconds
+14.743: Application time: 0.0000100 seconds
+14.743: Total time for which application threads were stopped: 0.0000170 seconds, Stopping threads took: 0.0000130 seconds
+14.743: Application time: 0.0000100 seconds
+14.743: Total time for which application threads were stopped: 0.0000150 seconds, Stopping threads took: 0.0000110 seconds
+14.743: Application time: 0.0000100 seconds
+14.743: Total time for which application threads were stopped: 0.0000140 seconds, Stopping threads took: 0.0000100 seconds
+14.743: Application time: 0.0000100 seconds
+14.744: Total time for which application threads were stopped: 0.0000150 seconds, Stopping threads took: 0.0000110 seconds
+14.744: Application time: 0.0000280 seconds
+14.744: Total time for which application threads were stopped: 0.0000130 seconds, Stopping threads took: 0.0000090 seconds
+14.744: Application time: 0.0000130 seconds
+14.744: Total time for which application threads were stopped: 0.0000170 seconds, Stopping threads took: 0.0000130 seconds
+14.744: Application time: 0.0000120 seconds
+14.744: Total time for which application threads were stopped: 0.0000130 seconds, Stopping threads took: 0.0000100 seconds
+14.744: Application time: 0.0000120 seconds
+14.744: Total time for which application threads were stopped: 0.0000170 seconds, Stopping threads took: 0.0000130 seconds
+14.744: Application time: 0.0000110 seconds
+14.744: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000180 seconds
+14.744: Application time: 0.0000120 seconds
+14.744: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000160 seconds
+14.744: Application time: 0.0002080 seconds
+14.744: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000160 seconds
+14.744: Application time: 0.0000150 seconds
+14.744: Total time for which application threads were stopped: 0.0000070 seconds, Stopping threads took: 0.0000040 seconds
+14.744: Application time: 0.0000160 seconds
+14.744: Total time for which application threads were stopped: 0.0000150 seconds, Stopping threads took: 0.0000110 seconds
+14.744: Application time: 0.0000150 seconds
+14.744: Total time for which application threads were stopped: 0.0000180 seconds, Stopping threads took: 0.0000130 seconds
+14.744: Application time: 0.0000160 seconds
+14.744: Total time for which application threads were stopped: 0.0000160 seconds, Stopping threads took: 0.0000110 seconds
+14.744: Application time: 0.0000180 seconds
+14.744: Total time for which application threads were stopped: 0.0000180 seconds, Stopping threads took: 0.0000120 seconds
+14.744: Application time: 0.0000160 seconds
+14.744: Total time for which application threads were stopped: 0.0000230 seconds, Stopping threads took: 0.0000120 seconds
+14.745: Application time: 0.0003780 seconds
+14.745: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000140 seconds
+14.772: Application time: 0.0271990 seconds
+14.772: Total time for which application threads were stopped: 0.0000560 seconds, Stopping threads took: 0.0000130 seconds
+14.792: Application time: 0.0199890 seconds
+14.792: Total time for which application threads were stopped: 0.0000450 seconds, Stopping threads took: 0.0000210 seconds
+14.810: Application time: 0.0176810 seconds
+14.810: Total time for which application threads were stopped: 0.0000250 seconds, Stopping threads took: 0.0000180 seconds
+14.810: Application time: 0.0007320 seconds
+14.810: Total time for which application threads were stopped: 0.0000350 seconds, Stopping threads took: 0.0000260 seconds
+14.810: Application time: 0.0001430 seconds
+14.811: Total time for which application threads were stopped: 0.0000910 seconds, Stopping threads took: 0.0000810 seconds
+14.811: Application time: 0.0005000 seconds
+14.811: Total time for which application threads were stopped: 0.0000210 seconds, Stopping threads took: 0.0000130 seconds
+14.811: Application time: 0.0000220 seconds
+14.811: Total time for which application threads were stopped: 0.0000230 seconds, Stopping threads took: 0.0000180 seconds
+14.811: Application time: 0.0000220 seconds
+14.811: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000210 seconds
+14.811: Application time: 0.0000420 seconds
+14.811: Total time for which application threads were stopped: 0.0000280 seconds, Stopping threads took: 0.0000190 seconds
+14.812: Application time: 0.0004820 seconds
+14.812: Total time for which application threads were stopped: 0.0000470 seconds, Stopping threads took: 0.0000360 seconds
+14.812: Application time: 0.0000140 seconds
+14.812: Total time for which application threads were stopped: 0.0000250 seconds, Stopping threads took: 0.0000170 seconds
+14.812: Application time: 0.0000870 seconds
+14.812: Total time for which application threads were stopped: 0.0000210 seconds, Stopping threads took: 0.0000110 seconds
+14.812: Application time: 0.0000130 seconds
+14.812: Total time for which application threads were stopped: 0.0000070 seconds, Stopping threads took: 0.0000030 seconds
+14.812: Application time: 0.0000120 seconds
+14.812: Total time for which application threads were stopped: 0.0000070 seconds, Stopping threads took: 0.0000030 seconds
+14.812: Application time: 0.0000140 seconds
+14.812: Total time for which application threads were stopped: 0.0000060 seconds, Stopping threads took: 0.0000020 seconds
+14.812: Application time: 0.0001010 seconds
+14.812: Total time for which application threads were stopped: 0.0000060 seconds, Stopping threads took: 0.0000020 seconds
+14.812: Application time: 0.0002780 seconds
+14.812: Total time for which application threads were stopped: 0.0000340 seconds, Stopping threads took: 0.0000220 seconds
+14.815: Application time: 0.0025540 seconds
+14.815: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000240 seconds
+14.815: Application time: 0.0002660 seconds
+14.815: Total time for which application threads were stopped: 0.0000700 seconds, Stopping threads took: 0.0000360 seconds
+14.816: Application time: 0.0003980 seconds
+14.816: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000210 seconds
+14.816: Application time: 0.0000390 seconds
+14.816: Total time for which application threads were stopped: 0.0000210 seconds, Stopping threads took: 0.0000130 seconds
+14.839: Application time: 0.0227490 seconds
+14.839: Total time for which application threads were stopped: 0.0000360 seconds, Stopping threads took: 0.0000200 seconds
+14.839: Application time: 0.0001640 seconds
+14.839: Total time for which application threads were stopped: 0.0000590 seconds, Stopping threads took: 0.0000470 seconds
+14.839: Application time: 0.0000580 seconds
+14.839: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000140 seconds
+14.839: Application time: 0.0001420 seconds
+14.839: Total time for which application threads were stopped: 0.0000300 seconds, Stopping threads took: 0.0000200 seconds
+14.839: Application time: 0.0000810 seconds
+14.839: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000160 seconds
+14.839: Application time: 0.0000370 seconds
+14.839: Total time for which application threads were stopped: 0.0000490 seconds, Stopping threads took: 0.0000360 seconds
+14.840: Application time: 0.0003460 seconds
+14.840: Total time for which application threads were stopped: 0.0000760 seconds, Stopping threads took: 0.0000220 seconds
+14.860: Application time: 0.0203380 seconds
+14.861: Total time for which application threads were stopped: 0.0004470 seconds, Stopping threads took: 0.0004020 seconds
+14.861: Application time: 0.0006730 seconds
+14.861: Total time for which application threads were stopped: 0.0000640 seconds, Stopping threads took: 0.0000510 seconds
+14.948: Application time: 0.0865450 seconds
+14.948: [GC [PSYoungGen: 31436K->5091K(36864K)] 34581K->19838K(119808K), 0.0051750 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+14.953: Total time for which application threads were stopped: 0.0053680 seconds, Stopping threads took: 0.0000820 seconds
+14.954: Application time: 0.0007240 seconds
+14.957: Total time for which application threads were stopped: 0.0035250 seconds, Stopping threads took: 0.0035080 seconds
+14.957: Application time: 0.0000380 seconds
+14.958: Total time for which application threads were stopped: 0.0000240 seconds, Stopping threads took: 0.0000170 seconds
+14.958: Application time: 0.0000350 seconds
+14.958: Total time for which application threads were stopped: 0.0000390 seconds, Stopping threads took: 0.0000330 seconds
+14.958: Application time: 0.0000300 seconds
+14.958: Total time for which application threads were stopped: 0.0000120 seconds, Stopping threads took: 0.0000060 seconds
+14.958: Application time: 0.0000140 seconds
+14.958: Total time for which application threads were stopped: 0.0000190 seconds, Stopping threads took: 0.0000130 seconds
+14.958: Application time: 0.0000130 seconds
+14.958: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000150 seconds
+14.958: Application time: 0.0000120 seconds
+14.958: Total time for which application threads were stopped: 0.0000120 seconds, Stopping threads took: 0.0000060 seconds
+14.958: Application time: 0.0000130 seconds
+14.958: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000160 seconds
+14.958: Application time: 0.0000160 seconds
+14.958: Total time for which application threads were stopped: 0.0000250 seconds, Stopping threads took: 0.0000190 seconds
+14.958: Application time: 0.0000130 seconds
+14.958: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000140 seconds
+14.958: Application time: 0.0000110 seconds
+14.958: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000140 seconds
+14.958: Application time: 0.0000120 seconds
+14.958: Total time for which application threads were stopped: 0.0000110 seconds, Stopping threads took: 0.0000060 seconds
+14.958: Application time: 0.0000160 seconds
+14.958: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000170 seconds
+14.958: Application time: 0.0000150 seconds
+14.958: Total time for which application threads were stopped: 0.0000190 seconds, Stopping threads took: 0.0000130 seconds
+14.958: Application time: 0.0000110 seconds
+14.958: Total time for which application threads were stopped: 0.0000210 seconds, Stopping threads took: 0.0000150 seconds
+14.958: Application time: 0.0000150 seconds
+14.958: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000150 seconds
+14.958: Application time: 0.0000100 seconds
+14.958: Total time for which application threads were stopped: 0.0000190 seconds, Stopping threads took: 0.0000130 seconds
+14.958: Application time: 0.0000120 seconds
+14.958: Total time for which application threads were stopped: 0.0000170 seconds, Stopping threads took: 0.0000110 seconds
+14.958: Application time: 0.0000160 seconds
+14.958: Total time for which application threads were stopped: 0.0000200 seconds, Stopping threads took: 0.0000130 seconds
+14.958: Application time: 0.0000120 seconds
+14.958: Total time for which application threads were stopped: 0.0000480 seconds, Stopping threads took: 0.0000170 seconds
+14.958: Application time: 0.0002700 seconds
+14.961: Total time for which application threads were stopped: 0.0029550 seconds, Stopping threads took: 0.0029480 seconds
+14.961: Application time: 0.0000240 seconds
+14.962: Total time for which application threads were stopped: 0.0000670 seconds, Stopping threads took: 0.0000590 seconds
+14.963: Application time: 0.0013470 seconds
+14.963: Total time for which application threads were stopped: 0.0000550 seconds, Stopping threads took: 0.0000430 seconds
+14.963: Application time: 0.0001310 seconds
+14.963: Total time for which application threads were stopped: 0.0002430 seconds, Stopping threads took: 0.0002280 seconds
+14.973: Application time: 0.0097140 seconds
+14.973: [GC [PSYoungGen: 36680K->5059K(68608K)] 51428K->31919K(151552K), 0.0044360 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+14.978: Total time for which application threads were stopped: 0.0047860 seconds, Stopping threads took: 0.0002640 seconds
+14.998: Application time: 0.0206460 seconds
+14.999: [GC [PSYoungGen: 68298K->5091K(68608K)] 95158K->41926K(151552K), 0.0035880 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+15.003: Total time for which application threads were stopped: 0.0040330 seconds, Stopping threads took: 0.0003580 seconds
+15.024: Application time: 0.0217810 seconds
+15.024: [GC [PSYoungGen: 67901K->5091K(132096K)] 104737K->51189K(215040K), 0.0033150 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+15.028: Total time for which application threads were stopped: 0.0035330 seconds, Stopping threads took: 0.0001300 seconds
+15.068: Application time: 0.0403070 seconds
+15.069: [GC [PSYoungGen: 131573K->5043K(132096K)] 177671K->66816K(215040K), 0.0050510 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+15.074: Total time for which application threads were stopped: 0.0054970 seconds, Stopping threads took: 0.0003540 seconds
+15.119: Application time: 0.0449660 seconds
+15.119: [GC [PSYoungGen: 131867K->7941K(266752K)] 193641K->69723K(349696K), 0.0021430 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+15.121: Total time for which application threads were stopped: 0.0027770 seconds, Stopping threads took: 0.0005530 seconds
+15.203: Application time: 0.0812430 seconds
+15.203: [GC [PSYoungGen: 261847K->12370K(266752K)] 323629K->84089K(349696K), 0.0054220 secs] [Times: user=0.03 sys=0.01, real=0.00 secs] 
+15.208: [Full GC [PSYoungGen: 12370K->0K(266752K)] [ParOldGen: 71718K->24767K(85504K)] 84089K->24767K(352256K) [PSPermGen: 6050K->6040K(21504K)], 0.0174030 secs] [Times: user=0.09 sys=0.00, real=0.02 secs] 
+15.226: Total time for which application threads were stopped: 0.0232080 seconds, Stopping threads took: 0.0002280 seconds
+15.312: Application time: 0.0865140 seconds
+15.313: [GC [PSYoungGen: 253592K->14507K(440320K)] 278359K->39987K(525824K), 0.0035460 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+15.316: Total time for which application threads were stopped: 0.0038690 seconds, Stopping threads took: 0.0002370 seconds
+16.316: Application time: 1.0001010 seconds
+16.318: Total time for which application threads were stopped: 0.0011180 seconds, Stopping threads took: 0.0010860 seconds
+16.959: Application time: 0.6417310 seconds
+16.959: [GC [PSYoungGen: 439842K->16643K(520704K)] 465322K->52811K(606208K), 0.0067280 secs] [Times: user=0.04 sys=0.01, real=0.01 secs] 
+16.966: Total time for which application threads were stopped: 0.0069090 seconds, Stopping threads took: 0.0000880 seconds
+18.647: Application time: 1.6804930 seconds
+18.647: [GC [PSYoungGen: 520237K->18782K(599040K)] 556405K->63500K(684544K), 0.0066450 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
+18.653: Total time for which application threads were stopped: 0.0068250 seconds, Stopping threads took: 0.0000840 seconds
+18.912: Application time: 0.2584350 seconds
+18.912: Total time for which application threads were stopped: 0.0000900 seconds, Stopping threads took: 0.0000620 seconds
+19.119: Application time: 0.2068990 seconds
+19.119: [GC [PSYoungGen: 598041K->21112K(601600K)] 642758K->65853K(687104K), 0.0050180 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+19.124: Total time for which application threads were stopped: 0.0054960 seconds, Stopping threads took: 0.0003570 seconds
+19.648: Application time: 0.5234970 seconds
+19.648: [GC [PSYoungGen: 600023K->22343K(635904K)] 644765K->67370K(721408K), 0.0051800 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+19.653: Total time for which application threads were stopped: 0.0053570 seconds, Stopping threads took: 0.0000750 seconds
+22.024: Application time: 2.3706870 seconds
+22.024: [GC [PSYoungGen: 632579K->23771K(634880K)] 677606K->68797K(720384K), 0.0058230 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+22.030: Total time for which application threads were stopped: 0.0059740 seconds, Stopping threads took: 0.0000590 seconds
+22.979: Application time: 0.9490370 seconds
+22.979: [GC [PSYoungGen: 634226K->21824K(633344K)] 679252K->66850K(718848K), 0.0058510 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+22.985: Total time for which application threads were stopped: 0.0060470 seconds, Stopping threads took: 0.0000910 seconds
+23.185: Application time: 0.1996840 seconds
+23.185: [GC [PSYoungGen: 624246K->21776K(624640K)] 669272K->66802K(710144K), 0.0064120 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+23.191: Total time for which application threads were stopped: 0.0066080 seconds, Stopping threads took: 0.0001070 seconds
+25.192: Application time: 2.0002000 seconds
+25.194: Total time for which application threads were stopped: 0.0020490 seconds, Stopping threads took: 0.0020140 seconds
+25.440: Application time: 0.2465740 seconds
+25.440: [GC [PSYoungGen: 624107K->22537K(631808K)] 669133K->67563K(717312K), 0.0064040 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+25.447: Total time for which application threads were stopped: 0.0065710 seconds, Stopping threads took: 0.0000770 seconds
+26.747: Application time: 1.3004480 seconds
+26.747: [GC [PSYoungGen: 620726K->22584K(621568K)] 665752K->67610K(707072K), 0.0065240 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+26.754: Total time for which application threads were stopped: 0.0067550 seconds, Stopping threads took: 0.0001270 seconds
+26.957: Application time: 0.2026560 seconds
+26.957: [GC [PSYoungGen: 620786K->18293K(632832K)] 665812K->63320K(718336K), 0.0052620 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+26.962: Total time for which application threads were stopped: 0.0057670 seconds, Stopping threads took: 0.0003880 seconds
+28.736: Application time: 1.7736130 seconds
+28.736: [GC [PSYoungGen: 615628K->25386K(623104K)] 660654K->70412K(708608K), 0.0073280 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+28.744: Total time for which application threads were stopped: 0.0075430 seconds, Stopping threads took: 0.0001180 seconds
+30.354: Application time: 1.6101340 seconds
+30.354: [GC [PSYoungGen: 622744K->27557K(627200K)] 667770K->72583K(712704K), 0.0080390 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+30.362: Total time for which application threads were stopped: 0.0082320 seconds, Stopping threads took: 0.0000910 seconds
+30.683: Application time: 0.3207520 seconds
+30.683: [GC [PSYoungGen: 618715K->22584K(629248K)] 663741K->67610K(714752K), 0.0065720 secs] [Times: user=0.05 sys=0.01, real=0.00 secs] 
+30.689: Total time for which application threads were stopped: 0.0068510 seconds, Stopping threads took: 0.0001910 seconds
+31.778: Application time: 1.0880410 seconds
+31.778: [GC [PSYoungGen: 613518K->27587K(626688K)] 658544K->72613K(712192K), 0.0078470 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+31.786: Total time for which application threads were stopped: 0.0080050 seconds, Stopping threads took: 0.0000610 seconds
+33.902: Application time: 2.1162120 seconds
+33.902: [GC [PSYoungGen: 616346K->28285K(617984K)] 661372K->73312K(703488K), 0.0081150 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+33.910: Total time for which application threads were stopped: 0.0083130 seconds, Stopping threads took: 0.0000960 seconds
+34.408: Application time: 0.4979720 seconds
+34.408: [GC [PSYoungGen: 617259K->25434K(627200K)] 662286K->70461K(712704K), 0.0071920 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+34.415: Total time for which application threads were stopped: 0.0074360 seconds, Stopping threads took: 0.0001400 seconds
+34.785: Application time: 0.3698230 seconds
+34.785: [GC [PSYoungGen: 612155K->22568K(610304K)] 657182K->67594K(695808K), 0.0065160 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+34.792: Total time for which application threads were stopped: 0.0066640 seconds, Stopping threads took: 0.0000630 seconds
+37.064: Application time: 2.2723040 seconds
+37.064: [GC [PSYoungGen: 609185K->24026K(627200K)] 654211K->69053K(712704K), 0.0069920 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+37.071: Total time for which application threads were stopped: 0.0071590 seconds, Stopping threads took: 0.0000720 seconds
+38.096: Application time: 1.0249470 seconds
+38.097: [GC [PSYoungGen: 612265K->24673K(626176K)] 657291K->69700K(711680K), 0.0071420 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+38.104: Total time for which application threads were stopped: 0.0073460 seconds, Stopping threads took: 0.0001080 seconds
+38.306: Application time: 0.2022300 seconds
+38.306: [GC [PSYoungGen: 612853K->21840K(627200K)] 657879K->66866K(712704K), 0.0063900 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+38.313: Total time for which application threads were stopped: 0.0065490 seconds, Stopping threads took: 0.0000700 seconds
+40.213: Application time: 1.9003650 seconds
+40.213: [GC [PSYoungGen: 612768K->22536K(627712K)] 657794K->67578K(713216K), 0.0065950 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+40.220: Total time for which application threads were stopped: 0.0067680 seconds, Stopping threads took: 0.0000740 seconds
+41.660: Application time: 1.4403920 seconds
+41.660: [GC [PSYoungGen: 613485K->27572K(628736K)] 658527K->72622K(714240K), 0.0080770 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+41.668: Total time for which application threads were stopped: 0.0082590 seconds, Stopping threads took: 0.0000820 seconds
+41.980: Application time: 0.3119420 seconds
+41.980: [GC [PSYoungGen: 621484K->15474K(629760K)] 666534K->60525K(715264K), 0.0046630 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+41.985: Total time for which application threads were stopped: 0.0048390 seconds, Stopping threads took: 0.0000850 seconds
+43.294: Application time: 1.3089080 seconds
+43.294: [GC [PSYoungGen: 609293K->28252K(629248K)] 654343K->73318K(714752K), 0.0080540 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+43.302: Total time for which application threads were stopped: 0.0082290 seconds, Stopping threads took: 0.0000720 seconds
+45.235: Application time: 1.9323930 seconds
+45.235: [GC [PSYoungGen: 621334K->28269K(622080K)] 666400K->73351K(707584K), 0.0083110 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+45.243: Total time for which application threads were stopped: 0.0084950 seconds, Stopping threads took: 0.0000850 seconds
+45.647: Application time: 0.4043490 seconds
+45.648: [GC [PSYoungGen: 621496K->22584K(630784K)] 666578K->67666K(716288K), 0.0065410 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+45.654: Total time for which application threads were stopped: 0.0068580 seconds, Stopping threads took: 0.0002290 seconds
+46.281: Application time: 0.6268190 seconds
+46.281: [GC [PSYoungGen: 615702K->22584K(616448K)] 660784K->67674K(701952K), 0.0065350 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+46.288: Total time for which application threads were stopped: 0.0066980 seconds, Stopping threads took: 0.0000680 seconds
+48.504: Application time: 2.2166040 seconds
+48.505: [GC [PSYoungGen: 615665K->26781K(627712K)] 660756K->71879K(713216K), 0.0077150 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+48.512: Total time for which application threads were stopped: 0.0079080 seconds, Stopping threads took: 0.0000930 seconds
+49.310: Application time: 0.7979870 seconds
+49.310: [GC [PSYoungGen: 619193K->25402K(628224K)] 664291K->70500K(713728K), 0.0072350 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+49.318: Total time for which application threads were stopped: 0.0074120 seconds, Stopping threads took: 0.0000780 seconds
+49.553: Application time: 0.2355860 seconds
+49.554: [GC [PSYoungGen: 617938K->19005K(630784K)] 663036K->64103K(716288K), 0.0059640 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+49.560: Total time for which application threads were stopped: 0.0062190 seconds, Stopping threads took: 0.0001150 seconds
+51.574: Application time: 2.0139650 seconds
+51.578: Total time for which application threads were stopped: 0.0039550 seconds, Stopping threads took: 0.0039230 seconds
+51.748: Application time: 0.1700030 seconds
+51.748: [GC [PSYoungGen: 615612K->21888K(631296K)] 660711K->66994K(716800K), 0.0063580 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+51.754: Total time for which application threads were stopped: 0.0065240 seconds, Stopping threads took: 0.0000760 seconds
+52.964: Application time: 1.2101790 seconds
+52.964: [GC [PSYoungGen: 618592K->24706K(632320K)] 663698K->69820K(717824K), 0.0069720 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+52.971: Total time for which application threads were stopped: 0.0071220 seconds, Stopping threads took: 0.0000560 seconds
+53.288: Application time: 0.3169460 seconds
+53.288: [GC [PSYoungGen: 623566K->18292K(632320K)] 668680K->63407K(717824K), 0.0054830 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+53.294: Total time for which application threads were stopped: 0.0056640 seconds, Stopping threads took: 0.0000870 seconds
+54.961: Application time: 1.6673490 seconds
+54.961: [GC [PSYoungGen: 617089K->25418K(633344K)] 662203K->70540K(718848K), 0.0072200 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+54.969: Total time for which application threads were stopped: 0.0073900 seconds, Stopping threads took: 0.0000630 seconds
+56.476: Application time: 1.5077760 seconds
+56.477: [GC [PSYoungGen: 625666K->26812K(633344K)] 670788K->71942K(718848K), 0.0078260 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+56.485: Total time for which application threads were stopped: 0.0080990 seconds, Stopping threads took: 0.0001680 seconds
+56.975: Application time: 0.4901800 seconds
+56.975: [GC [PSYoungGen: 627163K->18989K(633856K)] 672294K->64119K(719360K), 0.0056930 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+56.981: Total time for which application threads were stopped: 0.0062670 seconds, Stopping threads took: 0.0004740 seconds
+57.986: Application time: 1.0045060 seconds
+57.990: Total time for which application threads were stopped: 0.0039880 seconds, Stopping threads took: 0.0039560 seconds
+58.098: Application time: 0.1087360 seconds
+58.098: [GC [PSYoungGen: 619211K->28268K(629248K)] 664341K->73406K(714752K), 0.0080730 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+58.107: Total time for which application threads were stopped: 0.0082500 seconds, Stopping threads took: 0.0000920 seconds
+60.159: Application time: 2.0528330 seconds
+60.160: [GC [PSYoungGen: 628503K->25387K(633344K)] 673642K->70533K(718848K), 0.0078830 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+60.168: Total time for which application threads were stopped: 0.0086920 seconds, Stopping threads took: 0.0006930 seconds
+60.703: Application time: 0.5353950 seconds
+60.704: [GC [PSYoungGen: 624206K->24009K(623104K)] 669353K->69155K(708608K), 0.0070500 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+60.711: Total time for which application threads were stopped: 0.0072280 seconds, Stopping threads took: 0.0000790 seconds
+61.245: Application time: 0.5341870 seconds
+61.245: [GC [PSYoungGen: 622835K->22584K(633344K)] 667981K->67738K(718848K), 0.0064400 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+61.251: Total time for which application threads were stopped: 0.0065920 seconds, Stopping threads took: 0.0000590 seconds
+63.485: Application time: 2.2336980 seconds
+63.485: [GC [PSYoungGen: 622029K->23266K(632320K)] 667183K->68428K(717824K), 0.0066790 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+63.492: Total time for which application threads were stopped: 0.0068480 seconds, Stopping threads took: 0.0000760 seconds
+64.236: Application time: 0.7436940 seconds
+64.236: [GC [PSYoungGen: 622817K->23961K(633856K)] 667980K->69131K(719360K), 0.0070950 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+64.243: Total time for which application threads were stopped: 0.0072820 seconds, Stopping threads took: 0.0000890 seconds
+64.556: Application time: 0.3128120 seconds
+64.556: [GC [PSYoungGen: 626378K->18308K(633344K)] 671549K->63479K(718848K), 0.0054810 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+64.562: Total time for which application threads were stopped: 0.0058290 seconds, Stopping threads took: 0.0002490 seconds
+66.726: Application time: 2.1645260 seconds
+66.726: [GC [PSYoungGen: 620610K->23297K(634880K)] 665781K->68476K(720384K), 0.0067140 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+66.733: Total time for which application threads were stopped: 0.0068870 seconds, Stopping threads took: 0.0000780 seconds
+67.882: Application time: 1.1493370 seconds
+67.883: [GC [PSYoungGen: 627807K->23993K(635392K)] 672985K->69180K(720896K), 0.0069630 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+67.890: Total time for which application threads were stopped: 0.0076590 seconds, Stopping threads took: 0.0005990 seconds
+68.227: Application time: 0.3368970 seconds
+68.227: [GC [PSYoungGen: 628557K->21871K(635904K)] 673743K->67057K(721408K), 0.0064720 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+68.234: Total time for which application threads were stopped: 0.0066790 seconds, Stopping threads took: 0.0001190 seconds
+69.998: Application time: 1.7648630 seconds
+69.999: [GC [PSYoungGen: 628471K->21887K(636416K)] 673657K->67082K(721920K), 0.0061850 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+70.005: Total time for which application threads were stopped: 0.0063620 seconds, Stopping threads took: 0.0000820 seconds
+71.420: Application time: 1.4149790 seconds
+71.420: [GC [PSYoungGen: 628515K->26860K(635904K)] 673709K->72062K(721408K), 0.0078470 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+71.428: Total time for which application threads were stopped: 0.0080360 seconds, Stopping threads took: 0.0000920 seconds
+71.864: Application time: 0.4356900 seconds
+71.864: [GC [PSYoungGen: 633571K->20414K(636928K)] 678773K->65617K(722432K), 0.0060570 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+71.870: Total time for which application threads were stopped: 0.0063280 seconds, Stopping threads took: 0.0001820 seconds
+73.252: Application time: 1.3825490 seconds
+73.253: [GC [PSYoungGen: 627026K->25418K(636416K)] 672228K->70628K(721920K), 0.0071930 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+73.260: Total time for which application threads were stopped: 0.0073500 seconds, Stopping threads took: 0.0000590 seconds
+75.007: Application time: 1.7472170 seconds
+75.007: [GC [PSYoungGen: 632019K->28270K(635392K)] 677229K->73488K(720896K), 0.0082620 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+75.015: Total time for which application threads were stopped: 0.0084430 seconds, Stopping threads took: 0.0000760 seconds
+75.576: Application time: 0.5608730 seconds
+75.576: [GC [PSYoungGen: 634976K->21839K(636416K)] 680194K->67066K(721920K), 0.0064130 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+75.583: Total time for which application threads were stopped: 0.0065850 seconds, Stopping threads took: 0.0000740 seconds
+76.436: Application time: 0.8534490 seconds
+76.436: [GC [PSYoungGen: 626321K->23961K(629248K)] 671548K->69195K(714752K), 0.0069360 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+76.443: Total time for which application threads were stopped: 0.0071070 seconds, Stopping threads took: 0.0000720 seconds
+78.615: Application time: 2.1716510 seconds
+78.615: [GC [PSYoungGen: 628449K->26845K(604160K)] 673683K->72087K(689664K), 0.0079570 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+78.623: Total time for which application threads were stopped: 0.0081270 seconds, Stopping threads took: 0.0000730 seconds
+79.278: Application time: 0.6548820 seconds
+79.279: [GC [PSYoungGen: 603602K->20446K(617984K)] 648844K->65696K(703488K), 0.0061320 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+79.285: Total time for which application threads were stopped: 0.0071440 seconds, Stopping threads took: 0.0009150 seconds
+79.439: Application time: 0.1541750 seconds
+79.440: [GC [PSYoungGen: 617842K->18957K(628224K)] 663092K->64207K(713728K), 0.0055380 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+79.445: Total time for which application threads were stopped: 0.0057280 seconds, Stopping threads took: 0.0000730 seconds
+81.820: Application time: 2.3748550 seconds
+81.820: [GC [PSYoungGen: 616242K->23298K(628224K)] 661492K->68556K(713728K), 0.0066740 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+81.827: Total time for which application threads were stopped: 0.0068490 seconds, Stopping threads took: 0.0000780 seconds
+82.951: Application time: 1.1239030 seconds
+82.951: [GC [PSYoungGen: 620688K->23961K(635904K)] 665946K->69227K(721408K), 0.0069490 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+82.958: Total time for which application threads were stopped: 0.0071410 seconds, Stopping threads took: 0.0000960 seconds
+83.171: Application time: 0.2129710 seconds
+83.171: [GC [PSYoungGen: 629975K->19654K(635904K)] 675242K->64920K(721408K), 0.0057410 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+83.177: Total time for which application threads were stopped: 0.0061890 seconds, Stopping threads took: 0.0003610 seconds
+85.074: Application time: 1.8967090 seconds
+85.074: [GC [PSYoungGen: 625541K->21872K(636416K)] 670807K->67146K(721920K), 0.0063480 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+85.080: Total time for which application threads were stopped: 0.0065490 seconds, Stopping threads took: 0.0001030 seconds
+86.327: Application time: 1.2463230 seconds
+86.327: [GC [PSYoungGen: 629202K->26131K(636928K)] 674476K->71414K(722432K), 0.0074310 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+86.334: Total time for which application threads were stopped: 0.0076010 seconds, Stopping threads took: 0.0000670 seconds
+86.864: Application time: 0.5299390 seconds
+86.865: [GC [PSYoungGen: 633515K->16836K(636416K)] 678797K->62134K(721920K), 0.0051390 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+86.870: Total time for which application threads were stopped: 0.0060540 seconds, Stopping threads took: 0.0008160 seconds
+88.350: Application time: 1.4792900 seconds
+88.350: [GC [PSYoungGen: 623460K->26811K(633856K)] 668758K->72117K(719360K), 0.0076090 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+88.357: Total time for which application threads were stopped: 0.0077730 seconds, Stopping threads took: 0.0000670 seconds
+89.862: Application time: 1.5051250 seconds
+89.863: [GC [PSYoungGen: 633463K->26132K(634880K)] 678769K->71446K(720384K), 0.0074820 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+89.870: Total time for which application threads were stopped: 0.0076790 seconds, Stopping threads took: 0.0000970 seconds
+90.549: Application time: 0.6789850 seconds
+90.549: [GC [PSYoungGen: 629205K->24690K(635392K)] 674519K->70012K(720896K), 0.0110070 secs] [Times: user=0.08 sys=0.00, real=0.01 secs] 
+90.560: Total time for which application threads were stopped: 0.0112150 seconds, Stopping threads took: 0.0001140 seconds
+91.551: Application time: 0.9901760 seconds
+91.551: [GC [PSYoungGen: 627794K->26130K(634880K)] 673116K->71460K(720384K), 0.0075350 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+91.558: Total time for which application threads were stopped: 0.0077150 seconds, Stopping threads took: 0.0000890 seconds
+93.498: Application time: 1.9393920 seconds
+93.498: [GC [PSYoungGen: 629186K->26116K(635392K)] 674517K->71454K(720896K), 0.0075520 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+93.505: Total time for which application threads were stopped: 0.0077340 seconds, Stopping threads took: 0.0000780 seconds
+94.211: Application time: 0.7052440 seconds
+94.211: [GC [PSYoungGen: 629208K->22536K(634368K)] 674547K->67882K(719872K), 0.0066890 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+94.218: Total time for which application threads were stopped: 0.0075350 seconds, Stopping threads took: 0.0007500 seconds
+94.666: Application time: 0.4479850 seconds
+94.666: [GC [PSYoungGen: 625662K->23280K(634880K)] 671009K->68634K(720384K), 0.0066190 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+94.673: Total time for which application threads were stopped: 0.0067630 seconds, Stopping threads took: 0.0000590 seconds
+96.982: Application time: 2.3089890 seconds
+96.982: [GC [PSYoungGen: 626273K->24723K(634880K)] 671627K->70085K(720384K), 0.0071200 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+96.989: Total time for which application threads were stopped: 0.0072950 seconds, Stopping threads took: 0.0000730 seconds
+97.845: Application time: 0.8558580 seconds
+97.845: [GC [PSYoungGen: 629246K->24674K(635392K)] 674608K->70044K(720896K), 0.0070080 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+97.852: Total time for which application threads were stopped: 0.0071930 seconds, Stopping threads took: 0.0000890 seconds
+98.213: Application time: 0.3602880 seconds
+98.213: [GC [PSYoungGen: 629270K->21095K(635904K)] 674640K->66465K(721408K), 0.0062490 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+98.219: Total time for which application threads were stopped: 0.0064700 seconds, Stopping threads took: 0.0001340 seconds
+100.255: Application time: 2.0360000 seconds
+100.255: [GC [PSYoungGen: 627664K->23313K(636416K)] 673034K->68691K(721920K), 0.0066860 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+100.262: Total time for which application threads were stopped: 0.0068720 seconds, Stopping threads took: 0.0000920 seconds
+101.507: Application time: 1.2453280 seconds
+101.507: [GC [PSYoungGen: 629958K->25418K(604160K)] 675336K->70805K(689664K), 0.0073540 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+101.515: Total time for which application threads were stopped: 0.0075110 seconds, Stopping threads took: 0.0000650 seconds
+101.848: Application time: 0.3333240 seconds
+101.848: [GC [PSYoungGen: 603608K->21839K(633856K)] 648995K->67225K(719360K), 0.0063810 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+101.855: Total time for which application threads were stopped: 0.0065510 seconds, Stopping threads took: 0.0000840 seconds
+103.418: Application time: 1.5635800 seconds
+103.418: [GC [PSYoungGen: 626292K->24009K(634880K)] 671678K->69403K(720384K), 0.0067870 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+103.425: Total time for which application threads were stopped: 0.0069570 seconds, Stopping threads took: 0.0000740 seconds
+104.682: Application time: 1.2572910 seconds
+104.683: [GC [PSYoungGen: 629224K->26813K(634368K)] 674618K->72215K(719872K), 0.0078700 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+104.691: Total time for which application threads were stopped: 0.0080480 seconds, Stopping threads took: 0.0000790 seconds
+105.416: Application time: 0.7254910 seconds
+105.416: [GC [PSYoungGen: 632067K->22552K(637952K)] 677469K->67954K(723456K), 0.0066210 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+105.423: Total time for which application threads were stopped: 0.0068260 seconds, Stopping threads took: 0.0001070 seconds
+106.628: Application time: 1.2053480 seconds
+106.628: [GC [PSYoungGen: 630626K->25402K(605696K)] 676029K->70812K(691200K), 0.0078590 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+106.636: Total time for which application threads were stopped: 0.0080250 seconds, Stopping threads took: 0.0000720 seconds
+108.424: Application time: 1.7873860 seconds
+108.424: [GC [PSYoungGen: 604912K->4595K(558080K)] 650322K->70818K(643584K), 0.0073850 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+108.431: Total time for which application threads were stopped: 0.0075790 seconds, Stopping threads took: 0.0000970 seconds
+109.077: Application time: 0.6459450 seconds
+109.077: [GC [PSYoungGen: 557722K->17564K(545792K)] 623944K->83787K(631296K), 0.0054900 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+109.083: Total time for which application threads were stopped: 0.0056850 seconds, Stopping threads took: 0.0000970 seconds
+109.406: Application time: 0.3229330 seconds
+109.406: [GC [PSYoungGen: 545215K->21143K(572928K)] 611438K->87365K(658432K), 0.0065550 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+109.412: Total time for which application threads were stopped: 0.0067190 seconds, Stopping threads took: 0.0000700 seconds
+111.432: Application time: 2.0196190 seconds
+111.432: [GC [PSYoungGen: 572116K->23249K(596480K)] 638338K->89472K(681984K), 0.0066960 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+111.439: Total time for which application threads were stopped: 0.0068590 seconds, Stopping threads took: 0.0000680 seconds
+112.549: Application time: 1.1101220 seconds
+112.549: [GC [PSYoungGen: 589959K->26131K(567296K)] 656181K->92354K(652800K), 0.0074240 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+112.557: Total time for which application threads were stopped: 0.0075920 seconds, Stopping threads took: 0.0000750 seconds
+113.009: Application time: 0.4519140 seconds
+113.009: [GC [PSYoungGen: 566553K->21855K(585728K)] 632775K->88078K(671232K), 0.0066250 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+113.016: Total time for which application threads were stopped: 0.0075910 seconds, Stopping threads took: 0.0008770 seconds
+114.150: Application time: 1.1342280 seconds
+114.151: [GC [PSYoungGen: 584994K->23977K(592896K)] 651217K->90199K(678400K), 0.0068180 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+114.157: Total time for which application threads were stopped: 0.0070270 seconds, Stopping threads took: 0.0001000 seconds
+115.961: Application time: 1.8035700 seconds
+115.961: [GC [PSYoungGen: 587095K->24707K(562688K)] 653318K->90929K(648192K), 0.0076980 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+115.969: Total time for which application threads were stopped: 0.0082280 seconds, Stopping threads took: 0.0004310 seconds
+116.554: Application time: 0.5845650 seconds
+116.554: [GC [PSYoungGen: 562213K->6116K(519168K)] 628436K->90933K(604672K), 0.0063680 secs] [Times: user=0.05 sys=0.01, real=0.00 secs] 
+116.560: [Full GC [PSYoungGen: 6116K->0K(519168K)] [ParOldGen: 84816K->27653K(109568K)] 90933K->27653K(628736K) [PSPermGen: 6113K->6113K(21504K)], 0.0106220 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+116.571: Total time for which application threads were stopped: 0.0172230 seconds, Stopping threads took: 0.0000770 seconds
+116.899: Application time: 0.3282440 seconds
+116.899: [GC [PSYoungGen: 512614K->19509K(566272K)] 540267K->47162K(675840K), 0.0058790 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+116.905: Total time for which application threads were stopped: 0.0060550 seconds, Stopping threads took: 0.0000880 seconds
+118.675: Application time: 1.7694670 seconds
+118.675: [GC [PSYoungGen: 556941K->21760K(580608K)] 584594K->49413K(690176K), 0.0059190 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+118.681: Total time for which application threads were stopped: 0.0060790 seconds, Stopping threads took: 0.0000630 seconds
+119.736: Application time: 1.0549580 seconds
+119.736: [GC [PSYoungGen: 572805K->26004K(580096K)] 600458K->53657K(689664K), 0.0077010 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+119.744: Total time for which application threads were stopped: 0.0078820 seconds, Stopping threads took: 0.0000820 seconds
+120.395: Application time: 0.6508830 seconds
+120.395: [GC [PSYoungGen: 577040K->22568K(613376K)] 604693K->50221K(722944K), 0.0050990 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+120.400: Total time for which application threads were stopped: 0.0052700 seconds, Stopping threads took: 0.0000680 seconds
+121.362: Application time: 0.9618850 seconds
+121.362: [GC [PSYoungGen: 607847K->26130K(614400K)] 635500K->53783K(723968K), 0.0068980 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+121.369: Total time for which application threads were stopped: 0.0070750 seconds, Stopping threads took: 0.0000780 seconds
+123.279: Application time: 1.9101800 seconds
+123.279: [GC [PSYoungGen: 611362K->25451K(636928K)] 639015K->53105K(746496K), 0.0058520 secs] [Times: user=0.02 sys=0.02, real=0.01 secs] 
+123.285: Total time for which application threads were stopped: 0.0060340 seconds, Stopping threads took: 0.0000840 seconds
+124.101: Application time: 0.8162570 seconds
+124.101: [GC [PSYoungGen: 632900K->21143K(637440K)] 660553K->48796K(747008K), 0.0058500 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+124.107: Total time for which application threads were stopped: 0.0060500 seconds, Stopping threads took: 0.0000970 seconds
+124.468: Application time: 0.3601450 seconds
+124.468: [GC [PSYoungGen: 628486K->23200K(636416K)] 656139K->50853K(745984K), 0.0082910 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+124.476: Total time for which application threads were stopped: 0.0084290 seconds, Stopping threads took: 0.0000560 seconds
+126.773: Application time: 2.2971080 seconds
+126.773: [GC [PSYoungGen: 631172K->23962K(636928K)] 658825K->51615K(746496K), 0.0068430 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+126.780: Total time for which application threads were stopped: 0.0070150 seconds, Stopping threads took: 0.0000640 seconds
+127.623: Application time: 0.8426990 seconds
+127.623: [GC [PSYoungGen: 632053K->25418K(638464K)] 659706K->53071K(748032K), 0.0076760 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+127.631: Total time for which application threads were stopped: 0.0078360 seconds, Stopping threads took: 0.0000590 seconds
+128.023: Application time: 0.3919880 seconds
+128.023: [GC [PSYoungGen: 635009K->23216K(633344K)] 662662K->50869K(742912K), 0.0068850 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+128.030: Total time for which application threads were stopped: 0.0070790 seconds, Stopping threads took: 0.0001060 seconds
+130.109: Application time: 2.0794380 seconds
+130.109: [GC [PSYoungGen: 632625K->23249K(637952K)] 660278K->50902K(747520K), 0.0066980 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+130.116: Total time for which application threads were stopped: 0.0068700 seconds, Stopping threads took: 0.0000760 seconds
+131.153: Application time: 1.0374910 seconds
+131.154: [GC [PSYoungGen: 632756K->23962K(637952K)] 660409K->51615K(747520K), 0.0070430 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+131.161: Total time for which application threads were stopped: 0.0074790 seconds, Stopping threads took: 0.0003370 seconds
+131.748: Application time: 0.5875270 seconds
+131.749: [GC [PSYoungGen: 633491K->22536K(638464K)] 661144K->50189K(748032K), 0.0066940 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+131.755: Total time for which application threads were stopped: 0.0068860 seconds, Stopping threads took: 0.0000950 seconds
+133.447: Application time: 1.6912880 seconds
+133.447: [GC [PSYoungGen: 632689K->24738K(638464K)] 660342K->52391K(748032K), 0.0070800 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+133.454: Total time for which application threads were stopped: 0.0072470 seconds, Stopping threads took: 0.0000740 seconds
+134.676: Application time: 1.2218270 seconds
+134.676: [GC [PSYoungGen: 634967K->26116K(638464K)] 662620K->53777K(748032K), 0.0073980 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+134.683: Total time for which application threads were stopped: 0.0075720 seconds, Stopping threads took: 0.0000720 seconds
+135.384: Application time: 0.7007870 seconds
+135.384: [GC [PSYoungGen: 636348K->23280K(638976K)] 664010K->50941K(748544K), 0.0068890 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+135.391: Total time for which application threads were stopped: 0.0070700 seconds, Stopping threads took: 0.0000830 seconds
+136.697: Application time: 1.3060930 seconds
+136.697: [GC [PSYoungGen: 633482K->24673K(638976K)] 661143K->52342K(748544K), 0.0070580 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+136.704: Total time for which application threads were stopped: 0.0072210 seconds, Stopping threads took: 0.0000680 seconds
+138.264: Application time: 1.5592340 seconds
+138.264: [GC [PSYoungGen: 635581K->24675K(638976K)] 663250K->52360K(748544K), 0.0072120 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+138.271: Total time for which application threads were stopped: 0.0073890 seconds, Stopping threads took: 0.0000770 seconds
+138.491: Application time: 0.2194240 seconds
+138.491: Total time for which application threads were stopped: 0.0000910 seconds, Stopping threads took: 0.0000680 seconds
+138.664: Application time: 0.1729450 seconds
+138.664: Total time for which application threads were stopped: 0.0001040 seconds, Stopping threads took: 0.0000800 seconds
+138.800: Application time: 0.1368000 seconds
+138.801: Total time for which application threads were stopped: 0.0000880 seconds, Stopping threads took: 0.0000460 seconds
+138.941: Application time: 0.1406600 seconds
+138.941: Total time for which application threads were stopped: 0.0000640 seconds, Stopping threads took: 0.0000390 seconds
+139.116: Application time: 0.1743040 seconds
+139.116: Total time for which application threads were stopped: 0.0000670 seconds, Stopping threads took: 0.0000410 seconds
+140.383: Application time: 1.2671420 seconds
+140.383: Total time for which application threads were stopped: 0.0000770 seconds, Stopping threads took: 0.0000430 seconds
+140.439: Application time: 0.0563910 seconds
+140.440: [GC [PSYoungGen: 635950K->11784K(636416K)] 663635K->39477K(745984K), 0.0035470 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+140.444: Total time for which application threads were stopped: 0.0044710 seconds, Stopping threads took: 0.0008380 seconds
+140.638: Application time: 0.1941680 seconds
+140.639: [GC [PSYoungGen: 620114K->18928K(627712K)] 647807K->46629K(737280K), 0.0055900 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+140.644: Total time for which application threads were stopped: 0.0063880 seconds, Stopping threads took: 0.0007110 seconds
+142.330: Application time: 1.6861400 seconds
+142.331: [GC [PSYoungGen: 627246K->27555K(635392K)] 654947K->55264K(744960K), 0.0078630 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+142.339: Total time for which application threads were stopped: 0.0080230 seconds, Stopping threads took: 0.0000640 seconds
+144.274: Application time: 1.9359320 seconds
+144.275: [GC [PSYoungGen: 632622K->23297K(636416K)] 660331K->51014K(745984K), 0.0068200 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+144.281: Total time for which application threads were stopped: 0.0070040 seconds, Stopping threads took: 0.0000780 seconds
+144.459: Application time: 0.1773500 seconds
+144.462: [GC [PSYoungGen: 628507K->15411K(635904K)] 656224K->43128K(745472K), 0.0045840 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+144.466: Total time for which application threads were stopped: 0.0073180 seconds, Stopping threads took: 0.0026470 seconds
+145.556: Application time: 1.0897610 seconds
+145.556: [GC [PSYoungGen: 620848K->28236K(634368K)] 648565K->55961K(743936K), 0.0081030 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+145.564: Total time for which application threads were stopped: 0.0082840 seconds, Stopping threads took: 0.0000860 seconds
+147.735: Application time: 2.1706360 seconds
+147.735: [GC [PSYoungGen: 633260K->28269K(632832K)] 660985K->56002K(742400K), 0.0081530 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+147.743: Total time for which application threads were stopped: 0.0083640 seconds, Stopping threads took: 0.0001130 seconds
+148.197: Application time: 0.4537550 seconds
+148.197: [GC [PSYoungGen: 628152K->21143K(633856K)] 655885K->48876K(743424K), 0.0062840 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+148.204: Total time for which application threads were stopped: 0.0065680 seconds, Stopping threads took: 0.0001900 seconds
+148.682: Application time: 0.4782500 seconds
+148.682: [GC [PSYoungGen: 621635K->21871K(631296K)] 649368K->49612K(740864K), 0.0062960 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+148.688: Total time for which application threads were stopped: 0.0064640 seconds, Stopping threads took: 0.0000730 seconds
+150.996: Application time: 2.3079960 seconds
+150.996: [GC [PSYoungGen: 622787K->24011K(632832K)] 650528K->51760K(742400K), 0.0069310 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+151.003: Total time for which application threads were stopped: 0.0070940 seconds, Stopping threads took: 0.0000640 seconds
+151.859: Application time: 0.8557650 seconds
+151.859: [GC [PSYoungGen: 625072K->23281K(633856K)] 652821K->51038K(743424K), 0.0069120 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+151.866: Total time for which application threads were stopped: 0.0072210 seconds, Stopping threads took: 0.0002080 seconds
+152.056: Application time: 0.1897740 seconds
+152.056: [GC [PSYoungGen: 627216K->19005K(634880K)] 654973K->46770K(744448K), 0.0056890 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+152.062: Total time for which application threads were stopped: 0.0058520 seconds, Stopping threads took: 0.0000750 seconds
+154.291: Application time: 2.2286930 seconds
+154.291: [GC [PSYoungGen: 622744K->21872K(635392K)] 650509K->49645K(744960K), 0.0063700 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+154.297: Total time for which application threads were stopped: 0.0065320 seconds, Stopping threads took: 0.0000600 seconds
+155.560: Application time: 1.2629720 seconds
+155.560: [GC [PSYoungGen: 627111K->24722K(635904K)] 654884K->52503K(745472K), 0.0072440 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+155.568: Total time for which application threads were stopped: 0.0074250 seconds, Stopping threads took: 0.0000820 seconds
+155.766: Application time: 0.1987780 seconds
+155.767: [GC [PSYoungGen: 630022K->18261K(636928K)] 657803K->46058K(746496K), 0.0053010 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+155.772: Total time for which application threads were stopped: 0.0059870 seconds, Stopping threads took: 0.0006000 seconds
+157.556: Application time: 1.7839220 seconds
+157.556: [GC [PSYoungGen: 624852K->23280K(630272K)] 652649K->51141K(739840K), 0.0067000 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+157.563: Total time for which application threads were stopped: 0.0068990 seconds, Stopping threads took: 0.0000980 seconds
+159.157: Application time: 1.5941490 seconds
+159.157: [GC [PSYoungGen: 629866K->26131K(635904K)] 657727K->53992K(745472K), 0.0075810 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+159.165: Total time for which application threads were stopped: 0.0077560 seconds, Stopping threads took: 0.0000690 seconds
+159.454: Application time: 0.2894140 seconds
+159.455: [GC [PSYoungGen: 632173K->18989K(636416K)] 660034K->46850K(745984K), 0.0054370 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+159.461: Total time for which application threads were stopped: 0.0064100 seconds, Stopping threads took: 0.0008830 seconds
+160.745: Application time: 1.2844510 seconds
+160.745: [GC [PSYoungGen: 624882K->28236K(633856K)] 652743K->56113K(743424K), 0.0080530 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+160.754: Total time for which application threads were stopped: 0.0082410 seconds, Stopping threads took: 0.0000910 seconds
+162.746: Application time: 1.9919780 seconds
+162.746: [GC [PSYoungGen: 631272K->28285K(632320K)] 659149K->56170K(741888K), 0.0082170 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+162.754: Total time for which application threads were stopped: 0.0083970 seconds, Stopping threads took: 0.0000760 seconds
+163.147: Application time: 0.3931350 seconds
+163.147: [GC [PSYoungGen: 631469K->20446K(634880K)] 659355K->48331K(744448K), 0.0060290 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+163.154: Total time for which application threads were stopped: 0.0064050 seconds, Stopping threads took: 0.0002860 seconds
+163.869: Application time: 0.7158110 seconds
+163.869: [GC [PSYoungGen: 622052K->23264K(625664K)] 649937K->51149K(735232K), 0.0067450 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+163.876: Total time for which application threads were stopped: 0.0069240 seconds, Stopping threads took: 0.0000770 seconds
+166.095: Application time: 2.2183020 seconds
+166.095: [GC [PSYoungGen: 624872K->27573K(633344K)] 652757K->55466K(742912K), 0.0079590 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+166.103: Total time for which application threads were stopped: 0.0081430 seconds, Stopping threads took: 0.0000890 seconds
+166.726: Application time: 0.6230050 seconds
+166.726: [GC [PSYoungGen: 628538K->23297K(633856K)] 656431K->51198K(743424K), 0.0067750 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+166.733: Total time for which application threads were stopped: 0.0069460 seconds, Stopping threads took: 0.0000780 seconds
+167.024: Application time: 0.2912680 seconds
+167.024: [GC [PSYoungGen: 624297K->21823K(633856K)] 652198K->49724K(743424K), 0.0064520 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+167.031: Total time for which application threads were stopped: 0.0066430 seconds, Stopping threads took: 0.0001030 seconds
+169.355: Application time: 2.3240920 seconds
+169.355: [GC [PSYoungGen: 624809K->22521K(634368K)] 652710K->50430K(743936K), 0.0065690 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+169.361: Total time for which application threads were stopped: 0.0067510 seconds, Stopping threads took: 0.0000750 seconds
+170.443: Application time: 1.0817790 seconds
+170.443: [GC [PSYoungGen: 625641K->23249K(633856K)] 653550K->51166K(743424K), 0.0068210 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+170.450: Total time for which application threads were stopped: 0.0070720 seconds, Stopping threads took: 0.0001480 seconds
+170.642: Application time: 0.1920000 seconds
+170.642: [GC [PSYoungGen: 627827K->19654K(634880K)] 655744K->47571K(744448K), 0.0058540 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+170.648: Total time for which application threads were stopped: 0.0060910 seconds, Stopping threads took: 0.0001470 seconds
+172.642: Application time: 1.9934630 seconds
+172.642: [GC [PSYoungGen: 624804K->21856K(636416K)] 652721K->49781K(745984K), 0.0062630 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+172.648: Total time for which application threads were stopped: 0.0064230 seconds, Stopping threads took: 0.0000620 seconds
+174.084: Application time: 1.4352950 seconds
+174.084: [GC [PSYoungGen: 629179K->26844K(636928K)] 657104K->54777K(746496K), 0.0078020 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+174.092: Total time for which application threads were stopped: 0.0080010 seconds, Stopping threads took: 0.0000940 seconds
+174.331: Application time: 0.2397240 seconds
+174.331: [GC [PSYoungGen: 634018K->19021K(636928K)] 661951K->46954K(746496K), 0.0057030 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+174.337: Total time for which application threads were stopped: 0.0058720 seconds, Stopping threads took: 0.0000810 seconds
+175.930: Application time: 1.5932010 seconds
+175.930: [GC [PSYoungGen: 625157K->26827K(633856K)] 653090K->54768K(743424K), 0.0076960 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+175.938: Total time for which application threads were stopped: 0.0078670 seconds, Stopping threads took: 0.0000710 seconds
+177.704: Application time: 1.7657280 seconds
+177.704: [GC [PSYoungGen: 633431K->27572K(634880K)] 661372K->55522K(744448K), 0.0080200 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+177.712: Total time for which application threads were stopped: 0.0082020 seconds, Stopping threads took: 0.0000840 seconds
+178.054: Application time: 0.3419060 seconds
+178.055: [GC [PSYoungGen: 630782K->19702K(635392K)] 658731K->47659K(744960K), 0.0057670 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+178.061: Total time for which application threads were stopped: 0.0068360 seconds, Stopping threads took: 0.0009790 seconds
+179.114: Application time: 1.0530110 seconds
+179.114: [GC [PSYoungGen: 622746K->26130K(634368K)] 650703K->54095K(743936K), 0.0074320 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+179.122: Total time for which application threads were stopped: 0.0075980 seconds, Stopping threads took: 0.0000690 seconds
+181.270: Application time: 2.1487080 seconds
+181.270: [GC [PSYoungGen: 628408K->28253K(631296K)] 656373K->56226K(740864K), 0.0081420 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+181.279: Total time for which application threads were stopped: 0.0083090 seconds, Stopping threads took: 0.0000670 seconds
+181.778: Application time: 0.4991850 seconds
+181.778: [GC [PSYoungGen: 630505K->21856K(634880K)] 658478K->49837K(744448K), 0.0064170 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+181.784: Total time for which application threads were stopped: 0.0065920 seconds, Stopping threads took: 0.0000770 seconds
+182.236: Application time: 0.4513950 seconds
+182.236: [GC [PSYoungGen: 623706K->22552K(625152K)] 651687K->50533K(734720K), 0.0065420 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+182.242: Total time for which application threads were stopped: 0.0066990 seconds, Stopping threads took: 0.0000670 seconds
+184.556: Application time: 2.3134760 seconds
+184.556: [GC [PSYoungGen: 624135K->22553K(634368K)] 652116K->50543K(743936K), 0.0065420 secs] [Times: user=0.04 sys=0.01, real=0.01 secs] 
+184.563: Total time for which application threads were stopped: 0.0067840 seconds, Stopping threads took: 0.0001460 seconds
+185.358: Application time: 0.7954170 seconds
+185.358: [GC [PSYoungGen: 624933K->25418K(633856K)] 652922K->53415K(743424K), 0.0074570 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+185.366: Total time for which application threads were stopped: 0.0076570 seconds, Stopping threads took: 0.0001010 seconds
+185.618: Application time: 0.2521500 seconds
+185.618: [GC [PSYoungGen: 627879K->19702K(635392K)] 655876K->47699K(744960K), 0.0059020 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+185.624: Total time for which application threads were stopped: 0.0060640 seconds, Stopping threads took: 0.0000730 seconds
+187.829: Application time: 2.2047030 seconds
+187.829: [GC [PSYoungGen: 623407K->21872K(635392K)] 651404K->49877K(744960K), 0.0062110 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+187.835: Total time for which application threads were stopped: 0.0064130 seconds, Stopping threads took: 0.0000970 seconds
+189.044: Application time: 1.2090320 seconds
+189.044: [GC [PSYoungGen: 625671K->25434K(635392K)] 653676K->53447K(744960K), 0.0073890 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+189.052: Total time for which application threads were stopped: 0.0077960 seconds, Stopping threads took: 0.0002940 seconds
+189.319: Application time: 0.2667590 seconds
+189.319: [GC [PSYoungGen: 629935K->18308K(635392K)] 657948K->46321K(744960K), 0.0055500 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+189.324: Total time for which application threads were stopped: 0.0057660 seconds, Stopping threads took: 0.0001250 seconds
+191.110: Application time: 1.7854840 seconds
+191.110: [GC [PSYoungGen: 622832K->23312K(635392K)] 650845K->51333K(744960K), 0.0071900 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+191.117: Total time for which application threads were stopped: 0.0073620 seconds, Stopping threads took: 0.0000780 seconds
+192.740: Application time: 1.6228890 seconds
+192.740: [GC [PSYoungGen: 628477K->27540K(635904K)] 656498K->55569K(745472K), 0.0078350 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+192.748: Total time for which application threads were stopped: 0.0080120 seconds, Stopping threads took: 0.0000740 seconds
+192.980: Application time: 0.2319420 seconds
+192.981: [GC [PSYoungGen: 632875K->18261K(635904K)] 660904K->46298K(745472K), 0.0053570 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+192.986: Total time for which application threads were stopped: 0.0062150 seconds, Stopping threads took: 0.0007720 seconds
+194.325: Application time: 1.3383060 seconds
+194.325: [GC [PSYoungGen: 622720K->27603K(632320K)] 650757K->55648K(741888K), 0.0078560 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+194.333: Total time for which application threads were stopped: 0.0080170 seconds, Stopping threads took: 0.0000610 seconds
+196.258: Application time: 1.9257100 seconds
+196.259: [GC [PSYoungGen: 632064K->28317K(632832K)] 660109K->56370K(742400K), 0.0082460 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+196.267: Total time for which application threads were stopped: 0.0084370 seconds, Stopping threads took: 0.0000900 seconds
+196.693: Application time: 0.4263930 seconds
+196.694: [GC [PSYoungGen: 628747K->19054K(633856K)] 656800K->47107K(743424K), 0.0056480 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+196.699: Total time for which application threads were stopped: 0.0060620 seconds, Stopping threads took: 0.0003280 seconds
+197.439: Application time: 0.7399590 seconds
+197.439: [GC [PSYoungGen: 619135K->23232K(631808K)] 647188K->51285K(741376K), 0.0067340 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+197.446: Total time for which application threads were stopped: 0.0068980 seconds, Stopping threads took: 0.0000620 seconds
+199.661: Application time: 2.2149700 seconds
+199.661: [GC [PSYoungGen: 623423K->27589K(632832K)] 651476K->55650K(742400K), 0.0079600 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+199.669: Total time for which application threads were stopped: 0.0081240 seconds, Stopping threads took: 0.0000670 seconds
+200.369: Application time: 0.6995650 seconds
+200.370: [GC [PSYoungGen: 627862K->21143K(634368K)] 655923K->49212K(743936K), 0.0062000 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+200.376: Total time for which application threads were stopped: 0.0069320 seconds, Stopping threads took: 0.0006260 seconds
+200.547: Application time: 0.1708770 seconds
+200.547: [GC [PSYoungGen: 622840K->18229K(634368K)] 650909K->46298K(743936K), 0.0054500 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+200.553: Total time for which application threads were stopped: 0.0059870 seconds, Stopping threads took: 0.0004490 seconds
+202.921: Application time: 2.3679610 seconds
+202.921: [GC [PSYoungGen: 619787K->22585K(633344K)] 647856K->50662K(742912K), 0.0065110 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+202.927: Total time for which application threads were stopped: 0.0066770 seconds, Stopping threads took: 0.0000660 seconds
+204.033: Application time: 1.1056860 seconds
+204.034: [GC [PSYoungGen: 624284K->22584K(633856K)] 652361K->50669K(743424K), 0.0066350 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+204.041: Total time for which application threads were stopped: 0.0075890 seconds, Stopping threads took: 0.0008600 seconds
+204.197: Application time: 0.1567350 seconds
+204.198: [GC [PSYoungGen: 624310K->19005K(634880K)] 652395K->47090K(744448K), 0.0057040 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+204.204: Total time for which application threads were stopped: 0.0063630 seconds, Stopping threads took: 0.0005680 seconds
+206.161: Application time: 1.9573410 seconds
+206.161: [GC [PSYoungGen: 622729K->21872K(634880K)] 650814K->49965K(744448K), 0.0063290 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+206.168: Total time for which application threads were stopped: 0.0065070 seconds, Stopping threads took: 0.0000760 seconds
+207.673: Application time: 1.5055250 seconds
+207.673: [GC [PSYoungGen: 625627K->26875K(634880K)] 653720K->54976K(744448K), 0.0079310 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+207.681: Total time for which application threads were stopped: 0.0081080 seconds, Stopping threads took: 0.0000740 seconds
+207.902: Application time: 0.2207720 seconds
+207.903: [GC [PSYoungGen: 631505K->18277K(635904K)] 659606K->46378K(745472K), 0.0054380 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+207.908: Total time for which application threads were stopped: 0.0065150 seconds, Stopping threads took: 0.0009870 seconds
+209.386: Application time: 1.4776650 seconds
+209.386: [GC [PSYoungGen: 622698K->26827K(634880K)] 650799K->54936K(744448K), 0.0077680 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+209.394: Total time for which application threads were stopped: 0.0079670 seconds, Stopping threads took: 0.0000970 seconds
+211.022: Application time: 1.6277110 seconds
+211.022: [GC [PSYoungGen: 629886K->26116K(630272K)] 657995K->54233K(739840K), 0.0075470 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+211.030: Total time for which application threads were stopped: 0.0077260 seconds, Stopping threads took: 0.0000780 seconds
+211.592: Application time: 0.5629840 seconds
+211.593: [GC [PSYoungGen: 629698K->17500K(634880K)] 657815K->45633K(744448K), 0.0051780 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+211.598: Total time for which application threads were stopped: 0.0054590 seconds, Stopping threads took: 0.0001800 seconds
+212.529: Application time: 0.9306320 seconds
+212.529: [GC [PSYoungGen: 620118K->24009K(626688K)] 648251K->52150K(736256K), 0.0068870 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+212.536: Total time for which application threads were stopped: 0.0070490 seconds, Stopping threads took: 0.0000620 seconds
+214.610: Application time: 2.0748390 seconds
+214.611: [GC [PSYoungGen: 626358K->28286K(633344K)] 654499K->56435K(742912K), 0.0082340 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+214.619: Total time for which application threads were stopped: 0.0084280 seconds, Stopping threads took: 0.0000940 seconds
+215.304: Application time: 0.6850690 seconds
+215.304: [GC [PSYoungGen: 629211K->24025K(634368K)] 657360K->52182K(743936K), 0.0070570 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+215.311: Total time for which application threads were stopped: 0.0072400 seconds, Stopping threads took: 0.0000800 seconds
+215.639: Application time: 0.3278030 seconds
+215.639: [GC [PSYoungGen: 625042K->22552K(632832K)] 653199K->50709K(742400K), 0.0064460 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+215.646: Total time for which application threads were stopped: 0.0065990 seconds, Stopping threads took: 0.0000670 seconds
+217.994: Application time: 2.3486630 seconds
+217.994: [GC [PSYoungGen: 624106K->23298K(633856K)] 652263K->51463K(743424K), 0.0066850 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+218.001: Total time for which application threads were stopped: 0.0068730 seconds, Stopping threads took: 0.0000880 seconds
+218.935: Application time: 0.9341900 seconds
+218.936: [GC [PSYoungGen: 625004K->21808K(634368K)] 653169K->49981K(743936K), 0.0065180 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+218.943: Total time for which application threads were stopped: 0.0074530 seconds, Stopping threads took: 0.0008350 seconds
+219.189: Application time: 0.2462950 seconds
+219.189: [GC [PSYoungGen: 626383K->19733K(634880K)] 654556K->47906K(744448K), 0.0059500 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+219.195: Total time for which application threads were stopped: 0.0061250 seconds, Stopping threads took: 0.0000850 seconds
+221.248: Application time: 2.0528650 seconds
+221.248: [GC [PSYoungGen: 624162K->22601K(635904K)] 652335K->50782K(745472K), 0.0064830 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+221.255: Total time for which application threads were stopped: 0.0066500 seconds, Stopping threads took: 0.0000700 seconds
+222.507: Application time: 1.2523850 seconds
+222.507: [GC [PSYoungGen: 629218K->26812K(636416K)] 657399K->55001K(745984K), 0.0077530 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+222.515: Total time for which application threads were stopped: 0.0079240 seconds, Stopping threads took: 0.0000720 seconds
+222.934: Application time: 0.4187960 seconds
+222.934: [GC [PSYoungGen: 632847K->18989K(636928K)] 661036K->47178K(746496K), 0.0056060 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+222.940: Total time for which application threads were stopped: 0.0060610 seconds, Stopping threads took: 0.0003660 seconds
+224.597: Application time: 1.6572640 seconds
+224.597: [GC [PSYoungGen: 625539K->26811K(633856K)] 653728K->55008K(743424K), 0.0076100 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+224.605: Total time for which application threads were stopped: 0.0077800 seconds, Stopping threads took: 0.0000650 seconds
+226.119: Application time: 1.5138010 seconds
+226.119: [GC [PSYoungGen: 633459K->26147K(635904K)] 661656K->54352K(745472K), 0.0076030 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+226.127: Total time for which application threads were stopped: 0.0078090 seconds, Stopping threads took: 0.0001080 seconds
+226.623: Application time: 0.4962350 seconds
+226.623: [GC [PSYoungGen: 630731K->21903K(626688K)] 658936K->50108K(736256K), 0.0065040 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+226.630: Total time for which application threads were stopped: 0.0067510 seconds, Stopping threads took: 0.0001500 seconds
+227.777: Application time: 1.1469510 seconds
+227.777: [GC [PSYoungGen: 626376K->26875K(634368K)] 654581K->55088K(743936K), 0.0076930 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+227.784: Total time for which application threads were stopped: 0.0078590 seconds, Stopping threads took: 0.0000600 seconds
+229.531: Application time: 1.7469810 seconds
+229.532: [GC [PSYoungGen: 629928K->24675K(635392K)] 658141K->52896K(744960K), 0.0070700 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+229.539: Total time for which application threads were stopped: 0.0072310 seconds, Stopping threads took: 0.0000600 seconds
+230.321: Application time: 0.7822720 seconds
+230.321: [GC [PSYoungGen: 627796K->19702K(634880K)] 656017K->47923K(744448K), 0.0058340 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+230.327: Total time for which application threads were stopped: 0.0061560 seconds, Stopping threads took: 0.0002190 seconds
+230.935: Application time: 0.6079080 seconds
+230.935: [GC [PSYoungGen: 623494K->23248K(635392K)] 651715K->51477K(744960K), 0.0066730 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+230.942: Total time for which application threads were stopped: 0.0068290 seconds, Stopping threads took: 0.0000610 seconds
+233.123: Application time: 2.1812530 seconds
+233.123: [GC [PSYoungGen: 627010K->24723K(635392K)] 655239K->52960K(744960K), 0.0072400 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+233.130: Total time for which application threads were stopped: 0.0074230 seconds, Stopping threads took: 0.0000830 seconds
+234.003: Application time: 0.8727040 seconds
+234.003: [GC [PSYoungGen: 629221K->24009K(635392K)] 657458K->52254K(744960K), 0.0070760 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+234.010: Total time for which application threads were stopped: 0.0072520 seconds, Stopping threads took: 0.0000740 seconds
+234.242: Application time: 0.2313270 seconds
+234.242: [GC [PSYoungGen: 628593K->21143K(636416K)] 656838K->49388K(745984K), 0.0062290 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+234.248: Total time for which application threads were stopped: 0.0064130 seconds, Stopping threads took: 0.0000860 seconds
+236.486: Application time: 2.2381820 seconds
+236.486: [GC [PSYoungGen: 627700K->23281K(636416K)] 655945K->51534K(745984K), 0.0067250 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+236.493: Total time for which application threads were stopped: 0.0068890 seconds, Stopping threads took: 0.0000600 seconds
+237.675: Application time: 1.1815460 seconds
+237.675: [GC [PSYoungGen: 629923K->26147K(636416K)] 658176K->54408K(745984K), 0.0076450 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+237.683: Total time for which application threads were stopped: 0.0078310 seconds, Stopping threads took: 0.0000880 seconds
+237.935: Application time: 0.2520210 seconds
+237.935: [GC [PSYoungGen: 632886K->20446K(636928K)] 661147K->48707K(746496K), 0.0060300 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+237.941: Total time for which application threads were stopped: 0.0068080 seconds, Stopping threads took: 0.0006910 seconds
+239.796: Application time: 1.8546900 seconds
+239.796: [GC [PSYoungGen: 627035K->20447K(636416K)] 655296K->48716K(745984K), 0.0058720 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+239.802: Total time for which application threads were stopped: 0.0060370 seconds, Stopping threads took: 0.0000720 seconds
+241.075: Application time: 1.2724950 seconds
+241.075: [GC [PSYoungGen: 627776K->26828K(636928K)] 656045K->55113K(746496K), 0.0078260 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+241.083: Total time for which application threads were stopped: 0.0080680 seconds, Stopping threads took: 0.0001120 seconds
+241.717: Application time: 0.6340870 seconds
+241.718: [GC [PSYoungGen: 634270K->18277K(636928K)] 662555K->46562K(746496K), 0.0053890 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+241.723: Total time for which application threads were stopped: 0.0063410 seconds, Stopping threads took: 0.0008540 seconds
+243.102: Application time: 1.3783320 seconds
+243.102: [GC [PSYoungGen: 624851K->26146K(633344K)] 653136K->54439K(742912K), 0.0074940 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+243.109: Total time for which application threads were stopped: 0.0076550 seconds, Stopping threads took: 0.0000630 seconds
+244.415: Application time: 1.3053820 seconds
+244.415: [GC [PSYoungGen: 632784K->22569K(636928K)] 661077K->50870K(746496K), 0.0066670 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+244.421: Total time for which application threads were stopped: 0.0068510 seconds, Stopping threads took: 0.0000790 seconds
+245.399: Application time: 0.9775270 seconds
+245.400: [GC [PSYoungGen: 628553K->23280K(629760K)] 656854K->51589K(739328K), 0.0068390 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+245.406: Total time for which application threads were stopped: 0.0074240 seconds, Stopping threads took: 0.0004850 seconds
+246.291: Application time: 0.8848720 seconds
+246.291: [GC [PSYoungGen: 629194K->23296K(636416K)] 657503K->51613K(745984K), 0.0067600 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+246.298: Total time for which application threads were stopped: 0.0069330 seconds, Stopping threads took: 0.0000760 seconds
+248.042: Application time: 1.7442830 seconds
+248.043: [GC [PSYoungGen: 629907K->22569K(635904K)] 658224K->50894K(745472K), 0.0066910 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+248.050: Total time for which application threads were stopped: 0.0072630 seconds, Stopping threads took: 0.0004720 seconds
+248.993: Application time: 0.9429250 seconds
+248.993: [GC [PSYoungGen: 629225K->25434K(636928K)] 657550K->53767K(746496K), 0.0074190 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+249.000: Total time for which application threads were stopped: 0.0076410 seconds, Stopping threads took: 0.0001200 seconds
+249.475: Application time: 0.4743740 seconds
+249.475: [GC [PSYoungGen: 633553K->23296K(636928K)] 661886K->51637K(746496K), 0.0066370 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+249.481: Total time for which application threads were stopped: 0.0067970 seconds, Stopping threads took: 0.0000740 seconds
+251.720: Application time: 2.2383130 seconds
+251.720: [GC [PSYoungGen: 631346K->21873K(637952K)] 659687K->50222K(747520K), 0.0065270 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+251.727: Total time for which application threads were stopped: 0.0067070 seconds, Stopping threads took: 0.0000810 seconds
+252.647: Application time: 0.9209540 seconds
+252.648: [GC [PSYoungGen: 631349K->22584K(637952K)] 659698K->50941K(747520K), 0.0064380 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+252.654: Total time for which application threads were stopped: 0.0066200 seconds, Stopping threads took: 0.0000820 seconds
+252.944: Application time: 0.2899400 seconds
+252.944: [GC [PSYoungGen: 632143K->22536K(638464K)] 660500K->50893K(748032K), 0.0066820 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+252.951: Total time for which application threads were stopped: 0.0068690 seconds, Stopping threads took: 0.0000920 seconds
+255.097: Application time: 2.1457850 seconds
+255.097: [GC [PSYoungGen: 632656K->23313K(638464K)] 661013K->51678K(748032K), 0.0067030 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+255.104: Total time for which application threads were stopped: 0.0068840 seconds, Stopping threads took: 0.0000820 seconds
+256.403: Application time: 1.2995540 seconds
+256.403: [GC [PSYoungGen: 633506K->26827K(637952K)] 661871K->55913K(747520K), 0.0078190 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+256.411: Total time for which application threads were stopped: 0.0080010 seconds, Stopping threads took: 0.0000840 seconds
+256.591: Application time: 0.1801640 seconds
+256.591: [GC [PSYoungGen: 637157K->21047K(638976K)] 666243K->50133K(748544K), 0.0063070 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+256.598: Total time for which application threads were stopped: 0.0064920 seconds, Stopping threads took: 0.0000930 seconds
+258.449: Application time: 1.8509480 seconds
+258.449: [GC [PSYoungGen: 631199K->21175K(638976K)] 660285K->50269K(748544K), 0.0060400 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+258.455: Total time for which application threads were stopped: 0.0062070 seconds, Stopping threads took: 0.0000700 seconds
+259.750: Application time: 1.2950510 seconds
+259.750: [GC [PSYoungGen: 631341K->26132K(637440K)] 660435K->55233K(747008K), 0.0075130 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+259.758: Total time for which application threads were stopped: 0.0076810 seconds, Stopping threads took: 0.0000720 seconds
+260.372: Application time: 0.6140070 seconds
+260.373: [GC [PSYoungGen: 636431K->19686K(638464K)] 665533K->48787K(748032K), 0.0057710 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+260.378: Total time for which application threads were stopped: 0.0066940 seconds, Stopping threads took: 0.0008200 seconds
+261.757: Application time: 1.3783090 seconds
+261.757: [GC [PSYoungGen: 629105K->26827K(636928K)] 658206K->55937K(746496K), 0.0076850 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+261.765: Total time for which application threads were stopped: 0.0078770 seconds, Stopping threads took: 0.0000920 seconds
+263.065: Application time: 1.3000620 seconds
+263.065: [GC [PSYoungGen: 636324K->22569K(637952K)] 665433K->51687K(747520K), 0.0065100 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+263.071: Total time for which application threads were stopped: 0.0066880 seconds, Stopping threads took: 0.0000800 seconds
+264.050: Application time: 0.9790140 seconds
+264.051: [GC [PSYoungGen: 630710K->21111K(637440K)] 659828K->50237K(747008K), 0.0061030 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+264.057: Total time for which application threads were stopped: 0.0065500 seconds, Stopping threads took: 0.0003470 seconds
+265.001: Application time: 0.9437120 seconds
+265.001: [GC [PSYoungGen: 629142K->22584K(637440K)] 658268K->51717K(747008K), 0.0065050 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+265.007: Total time for which application threads were stopped: 0.0066660 seconds, Stopping threads took: 0.0000620 seconds
+266.701: Application time: 1.6939890 seconds
+266.701: [GC [PSYoungGen: 631341K->22601K(637440K)] 660474K->51743K(747008K), 0.0066290 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+266.708: Total time for which application threads were stopped: 0.0068180 seconds, Stopping threads took: 0.0000830 seconds
+267.707: Application time: 0.9984910 seconds
+267.707: [GC [PSYoungGen: 630704K->23993K(637952K)] 659845K->53143K(747520K), 0.0070150 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+267.714: Total time for which application threads were stopped: 0.0075470 seconds, Stopping threads took: 0.0004350 seconds
+268.221: Application time: 0.5065710 seconds
+268.221: [GC [PSYoungGen: 633505K->24009K(637952K)] 662655K->53166K(747520K), 0.0069250 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+268.228: Total time for which application threads were stopped: 0.0070880 seconds, Stopping threads took: 0.0000600 seconds
+270.158: Application time: 1.9299690 seconds
+270.158: [GC [PSYoungGen: 633458K->23265K(638464K)] 662616K->52431K(748032K), 0.0068060 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+270.165: Total time for which application threads were stopped: 0.0069710 seconds, Stopping threads took: 0.0000680 seconds
+271.373: Application time: 1.2084890 seconds
+271.373: [GC [PSYoungGen: 633497K->25450K(638464K)] 662663K->54624K(748032K), 0.0074470 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+271.381: Total time for which application threads were stopped: 0.0076340 seconds, Stopping threads took: 0.0000880 seconds
+271.646: Application time: 0.2652170 seconds
+271.646: [GC [PSYoungGen: 635716K->22568K(639488K)] 664889K->51741K(749056K), 0.0066120 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+271.653: Total time for which application threads were stopped: 0.0067910 seconds, Stopping threads took: 0.0000900 seconds
+273.825: Application time: 2.1725880 seconds
+273.826: [GC [PSYoungGen: 634141K->22585K(634880K)] 663314K->51766K(744448K), 0.0066570 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+273.832: Total time for which application threads were stopped: 0.0068410 seconds, Stopping threads took: 0.0000820 seconds
+275.002: Application time: 1.1698180 seconds
+275.002: [GC [PSYoungGen: 634195K->24009K(638976K)] 663376K->53199K(748544K), 0.0069230 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+275.009: Total time for which application threads were stopped: 0.0071210 seconds, Stopping threads took: 0.0000960 seconds
+275.349: Application time: 0.3397410 seconds
+275.349: [GC [PSYoungGen: 635745K->21095K(638976K)] 664935K->50284K(748544K), 0.0062060 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+275.355: Total time for which application threads were stopped: 0.0064000 seconds, Stopping threads took: 0.0001040 seconds
+277.221: Application time: 1.8659230 seconds
+277.221: [GC [PSYoungGen: 632659K->22520K(640000K)] 661848K->51718K(749568K), 0.0065160 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+277.228: Total time for which application threads were stopped: 0.0066980 seconds, Stopping threads took: 0.0000840 seconds
+278.500: Application time: 1.2722860 seconds
+278.500: [GC [PSYoungGen: 634831K->26147K(639488K)] 664029K->55353K(749056K), 0.0074970 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+278.508: Total time for which application threads were stopped: 0.0076660 seconds, Stopping threads took: 0.0000700 seconds
+279.026: Application time: 0.5175500 seconds
+279.026: [GC [PSYoungGen: 638589K->21143K(639488K)] 667794K->50348K(749056K), 0.0062690 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+279.032: Total time for which application threads were stopped: 0.0064500 seconds, Stopping threads took: 0.0000770 seconds
+280.532: Application time: 1.5003150 seconds
+280.532: [GC [PSYoungGen: 632705K->24674K(639488K)] 661910K->53887K(749056K), 0.0071270 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+280.540: Total time for which application threads were stopped: 0.0073130 seconds, Stopping threads took: 0.0000770 seconds
+281.823: Application time: 1.2836220 seconds
+281.823: [GC [PSYoungGen: 636311K->25435K(638464K)] 665525K->54657K(748032K), 0.0072770 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+281.831: Total time for which application threads were stopped: 0.0074560 seconds, Stopping threads took: 0.0000710 seconds
+282.710: Application time: 0.8791630 seconds
+282.710: [GC [PSYoungGen: 635625K->19734K(638976K)] 664846K->48963K(748544K), 0.0058690 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+282.716: Total time for which application threads were stopped: 0.0060620 seconds, Stopping threads took: 0.0000940 seconds
+283.812: Application time: 1.0963940 seconds
+283.812: [GC [PSYoungGen: 629991K->25418K(637952K)] 659220K->54656K(747520K), 0.0072710 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+283.820: Total time for which application threads were stopped: 0.0074310 seconds, Stopping threads took: 0.0000600 seconds
+285.370: Application time: 1.5500150 seconds
+285.374: [GC [PSYoungGen: 634878K->22457K(638464K)] 664115K->51703K(748032K), 0.0066940 secs] [Times: user=0.03 sys=0.00, real=0.00 secs] 
+285.380: Total time for which application threads were stopped: 0.0105840 seconds, Stopping threads took: 0.0037790 seconds
+286.369: Application time: 0.9885750 seconds
+286.369: [GC [PSYoungGen: 631986K->25386K(637952K)] 661231K->54640K(747520K), 0.0074450 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+286.377: Total time for which application threads were stopped: 0.0076710 seconds, Stopping threads took: 0.0001280 seconds
+287.042: Application time: 0.6658060 seconds
+287.043: [GC [PSYoungGen: 634893K->23296K(638464K)] 664147K->52558K(748032K), 0.0067210 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+287.049: Total time for which application threads were stopped: 0.0069310 seconds, Stopping threads took: 0.0001130 seconds
+288.866: Application time: 1.8162770 seconds
+288.866: [GC [PSYoungGen: 632751K->23249K(637440K)] 662013K->52519K(747008K), 0.0067110 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+288.873: Total time for which application threads were stopped: 0.0069090 seconds, Stopping threads took: 0.0000940 seconds
+290.000: Application time: 1.1276740 seconds
+290.001: [GC [PSYoungGen: 633506K->23929K(637952K)] 662775K->53207K(747520K), 0.0069560 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+290.008: Total time for which application threads were stopped: 0.0077770 seconds, Stopping threads took: 0.0007210 seconds
+290.229: Application time: 0.2212800 seconds
+290.229: [GC [PSYoungGen: 634178K->21823K(639488K)] 663456K->51109K(749056K), 0.0063100 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+290.236: Total time for which application threads were stopped: 0.0064890 seconds, Stopping threads took: 0.0000900 seconds
+292.292: Application time: 2.0560610 seconds
+292.292: [GC [PSYoungGen: 633387K->22585K(634880K)] 662672K->51878K(744448K), 0.0067270 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+292.299: Total time for which application threads were stopped: 0.0069220 seconds, Stopping threads took: 0.0000930 seconds
+293.503: Application time: 1.2041140 seconds
+293.503: [GC [PSYoungGen: 634198K->26796K(637952K)] 663491K->56810K(747520K), 0.0080800 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+293.511: Total time for which application threads were stopped: 0.0082760 seconds, Stopping threads took: 0.0000970 seconds
+293.900: Application time: 0.3885320 seconds
+293.900: [GC [PSYoungGen: 637097K->20462K(638976K)] 667111K->50476K(748544K), 0.0060450 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+293.906: Total time for which application threads were stopped: 0.0062210 seconds, Stopping threads took: 0.0000890 seconds
+295.942: Application time: 2.0356840 seconds
+295.942: [GC [PSYoungGen: 630626K->23265K(637952K)] 660640K->53287K(747520K), 0.0069580 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+295.949: Total time for which application threads were stopped: 0.0071410 seconds, Stopping threads took: 0.0000850 seconds
+297.136: Application time: 1.1874090 seconds
+297.136: [GC [PSYoungGen: 633445K->27540K(638464K)] 663467K->57570K(748032K), 0.0081100 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+297.144: Total time for which application threads were stopped: 0.0083130 seconds, Stopping threads took: 0.0000990 seconds
+297.714: Application time: 0.5696060 seconds
+297.714: [GC [PSYoungGen: 637829K->21063K(638464K)] 667859K->51093K(748032K), 0.0062640 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+297.721: Total time for which application threads were stopped: 0.0064590 seconds, Stopping threads took: 0.0000920 seconds
+299.310: Application time: 1.5892940 seconds
+299.310: [GC [PSYoungGen: 630472K->26827K(636928K)] 660502K->56865K(746496K), 0.0076200 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+299.318: Total time for which application threads were stopped: 0.0077740 seconds, Stopping threads took: 0.0000570 seconds
+300.591: Application time: 1.2729300 seconds
+300.591: [GC [PSYoungGen: 636332K->26084K(637440K)] 666370K->56138K(747008K), 0.0075420 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+300.598: Total time for which application threads were stopped: 0.0077270 seconds, Stopping threads took: 0.0000840 seconds
+301.386: Application time: 0.7878940 seconds
+301.386: [GC [PSYoungGen: 633472K->24705K(637440K)] 663526K->54767K(747008K), 0.0073140 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+301.394: Total time for which application threads were stopped: 0.0074960 seconds, Stopping threads took: 0.0000760 seconds
+302.549: Application time: 1.1558180 seconds
+302.550: [GC [PSYoungGen: 632065K->26875K(636416K)] 662128K->56945K(745984K), 0.0075940 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+302.557: Total time for which application threads were stopped: 0.0077600 seconds, Stopping threads took: 0.0000660 seconds
+303.870: Application time: 1.3123610 seconds
+303.870: [GC [PSYoungGen: 633499K->21872K(636928K)] 663569K->51950K(746496K), 0.0063350 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+303.876: Total time for which application threads were stopped: 0.0065000 seconds, Stopping threads took: 0.0000600 seconds
+305.029: Application time: 1.1529320 seconds
+305.029: [GC [PSYoungGen: 628544K->21840K(635904K)] 658622K->51926K(745472K), 0.0063860 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+305.036: Total time for which application threads were stopped: 0.0065900 seconds, Stopping threads took: 0.0001040 seconds
+305.749: Application time: 0.7132380 seconds
+305.749: [GC [PSYoungGen: 628487K->21871K(636416K)] 658573K->51965K(745984K), 0.0063320 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+305.755: Total time for which application threads were stopped: 0.0065030 seconds, Stopping threads took: 0.0000750 seconds
+307.563: Application time: 1.8076790 seconds
+307.563: [GC [PSYoungGen: 628496K->22553K(636416K)] 658590K->52655K(745984K), 0.0066300 secs] [Times: user=0.05 sys=0.01, real=0.00 secs] 
+307.570: Total time for which application threads were stopped: 0.0068040 seconds, Stopping threads took: 0.0000780 seconds
+308.688: Application time: 1.1181420 seconds
+308.689: [GC [PSYoungGen: 629922K->23961K(636928K)] 660024K->54071K(746496K), 0.0069690 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+308.696: Total time for which application threads were stopped: 0.0079260 seconds, Stopping threads took: 0.0008520 seconds
+309.080: Application time: 0.3836880 seconds
+309.080: [GC [PSYoungGen: 631345K->23249K(636928K)] 661456K->53367K(746496K), 0.0069730 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+309.087: Total time for which application threads were stopped: 0.0071530 seconds, Stopping threads took: 0.0000900 seconds
+310.867: Application time: 1.7804110 seconds
+310.867: [GC [PSYoungGen: 631983K->22584K(637440K)] 662101K->52710K(747008K), 0.0065510 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+310.874: Total time for which application threads were stopped: 0.0067350 seconds, Stopping threads took: 0.0000840 seconds
+312.205: Application time: 1.3313960 seconds
+312.206: [GC [PSYoungGen: 631346K->26115K(637952K)] 661472K->56249K(747520K), 0.0074600 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+312.213: Total time for which application threads were stopped: 0.0077100 seconds, Stopping threads took: 0.0001520 seconds
+312.741: Application time: 0.5275550 seconds
+312.741: [GC [PSYoungGen: 635688K->21175K(638464K)] 665823K->51317K(748032K), 0.0078150 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+312.749: Total time for which application threads were stopped: 0.0082880 seconds, Stopping threads took: 0.0003710 seconds
+314.566: Application time: 1.8171800 seconds
+314.566: [GC [PSYoungGen: 630624K->19718K(638464K)] 660766K->49868K(748032K), 0.0058050 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+314.572: Total time for which application threads were stopped: 0.0059850 seconds, Stopping threads took: 0.0000740 seconds
+315.665: Application time: 1.0931390 seconds
+315.665: [GC [PSYoungGen: 629205K->26860K(636928K)] 659355K->57019K(746496K), 0.0078420 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+315.673: Total time for which application threads were stopped: 0.0080560 seconds, Stopping threads took: 0.0001130 seconds
+316.431: Application time: 0.7582030 seconds
+316.432: [GC [PSYoungGen: 636389K->20414K(637440K)] 666547K->50572K(747008K), 0.0059190 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+316.438: Total time for which application threads were stopped: 0.0061090 seconds, Stopping threads took: 0.0000920 seconds
+317.928: Application time: 1.4904760 seconds
+317.928: [GC [PSYoungGen: 627726K->26859K(634880K)] 657884K->57025K(744448K), 0.0076400 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+317.936: Total time for which application threads were stopped: 0.0077980 seconds, Stopping threads took: 0.0000580 seconds
+319.215: Application time: 1.2790650 seconds
+319.215: [GC [PSYoungGen: 634214K->24010K(637440K)] 664380K->54184K(747008K), 0.0069540 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+319.222: Total time for which application threads were stopped: 0.0071210 seconds, Stopping threads took: 0.0000700 seconds
+320.130: Application time: 0.9084610 seconds
+320.131: [GC [PSYoungGen: 630548K->20446K(636928K)] 660722K->50628K(746496K), 0.0058540 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+320.137: Total time for which application threads were stopped: 0.0060190 seconds, Stopping threads took: 0.0000690 seconds
+321.163: Application time: 1.0261370 seconds
+321.163: [GC [PSYoungGen: 627243K->24722K(636928K)] 657425K->54912K(746496K), 0.0070670 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+321.170: Total time for which application threads were stopped: 0.0072280 seconds, Stopping threads took: 0.0000680 seconds
+322.505: Application time: 1.3354150 seconds
+322.505: [GC [PSYoungGen: 631329K->23217K(636928K)] 661520K->53415K(746496K), 0.0067140 secs] [Times: user=0.04 sys=0.01, real=0.00 secs] 
+322.512: Total time for which application threads were stopped: 0.0068710 seconds, Stopping threads took: 0.0000610 seconds
+323.636: Application time: 1.1242150 seconds
+323.637: [GC [PSYoungGen: 629870K->25434K(636928K)] 660068K->55640K(746496K), 0.0074640 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+323.644: Total time for which application threads were stopped: 0.0076510 seconds, Stopping threads took: 0.0000860 seconds
+324.338: Application time: 0.6937920 seconds
+324.338: [GC [PSYoungGen: 632815K->21839K(636928K)] 663021K->52053K(746496K), 0.0062560 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+324.344: Total time for which application threads were stopped: 0.0064460 seconds, Stopping threads took: 0.0000890 seconds
+326.108: Application time: 1.7638100 seconds
+326.108: [GC [PSYoungGen: 629177K->23297K(636928K)] 659391K->53519K(746496K), 0.0069220 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+326.115: Total time for which application threads were stopped: 0.0071040 seconds, Stopping threads took: 0.0000800 seconds
+327.201: Application time: 1.0857310 seconds
+327.201: [GC [PSYoungGen: 631357K->26147K(637440K)] 661579K->56377K(747008K), 0.0076670 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+327.209: Total time for which application threads were stopped: 0.0078760 seconds, Stopping threads took: 0.0001050 seconds
+327.756: Application time: 0.5468710 seconds
+327.756: [GC [PSYoungGen: 634266K->22600K(637952K)] 664496K->52838K(747520K), 0.0066860 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+327.763: Total time for which application threads were stopped: 0.0068840 seconds, Stopping threads took: 0.0000930 seconds
+329.540: Application time: 1.7774920 seconds
+329.540: [GC [PSYoungGen: 631345K->21808K(637952K)] 661583K->52054K(747520K), 0.0062560 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+329.546: Total time for which application threads were stopped: 0.0064230 seconds, Stopping threads took: 0.0000680 seconds
+330.814: Application time: 1.2670400 seconds
+330.814: [GC [PSYoungGen: 630593K->25419K(638464K)] 660839K->55673K(748032K), 0.0073680 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+330.821: Total time for which application threads were stopped: 0.0075550 seconds, Stopping threads took: 0.0000860 seconds
+331.407: Application time: 0.5856810 seconds
+331.407: [GC [PSYoungGen: 634933K->22600K(638464K)] 665187K->52862K(748032K), 0.0066510 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+331.414: Total time for which application threads were stopped: 0.0068320 seconds, Stopping threads took: 0.0000780 seconds
+333.236: Application time: 1.8219950 seconds
+333.236: [GC [PSYoungGen: 632079K->20431K(638464K)] 662342K->50701K(748032K), 0.0061300 secs] [Times: user=0.04 sys=0.01, real=0.01 secs] 
+333.242: Total time for which application threads were stopped: 0.0062990 seconds, Stopping threads took: 0.0000730 seconds
+334.196: Application time: 0.9536400 seconds
+334.196: [GC [PSYoungGen: 629911K->24010K(633856K)] 660181K->54288K(743424K), 0.0070960 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+334.203: Total time for which application threads were stopped: 0.0072950 seconds, Stopping threads took: 0.0000980 seconds
+335.133: Application time: 0.9305380 seconds
+335.134: [GC [PSYoungGen: 633574K->20414K(637952K)] 663852K->50700K(747520K), 0.0061470 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+335.140: Total time for which application threads were stopped: 0.0063290 seconds, Stopping threads took: 0.0000790 seconds
+336.603: Application time: 1.4636460 seconds
+336.604: [GC [PSYoungGen: 629833K->25434K(637952K)] 660120K->55728K(747520K), 0.0071930 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+336.611: Total time for which application threads were stopped: 0.0074790 seconds, Stopping threads took: 0.0001870 seconds
+337.893: Application time: 1.2821500 seconds
+337.893: [GC [PSYoungGen: 634944K->23265K(638464K)] 665239K->53568K(748032K), 0.0068130 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+337.900: Total time for which application threads were stopped: 0.0070000 seconds, Stopping threads took: 0.0000840 seconds
+338.794: Application time: 0.8939720 seconds
+338.794: [GC [PSYoungGen: 633475K->23977K(638464K)] 663777K->54287K(748032K), 0.0069970 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+338.801: Total time for which application threads were stopped: 0.0071660 seconds, Stopping threads took: 0.0000720 seconds
+339.867: Application time: 1.0659050 seconds
+339.867: [GC [PSYoungGen: 634203K->26099K(637952K)] 664513K->56417K(747520K), 0.0075090 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+339.875: Total time for which application threads were stopped: 0.0076860 seconds, Stopping threads took: 0.0000800 seconds
+341.206: Application time: 1.3311170 seconds
+341.206: [GC [PSYoungGen: 635569K->23994K(638464K)] 665887K->54320K(748032K), 0.0069110 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+341.213: Total time for which application threads were stopped: 0.0070960 seconds, Stopping threads took: 0.0000880 seconds
+342.394: Application time: 1.1808090 seconds
+342.394: [GC [PSYoungGen: 633487K->26114K(637952K)] 663813K->56449K(747520K), 0.0075920 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+342.402: Total time for which application threads were stopped: 0.0077840 seconds, Stopping threads took: 0.0000930 seconds
+343.108: Application time: 0.7062810 seconds
+343.108: [GC [PSYoungGen: 635640K->23264K(638464K)] 665975K->53606K(748032K), 0.0066950 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+343.115: Total time for which application threads were stopped: 0.0068710 seconds, Stopping threads took: 0.0000680 seconds
+344.747: Application time: 1.6324930 seconds
+344.747: [GC [PSYoungGen: 632746K->22584K(638464K)] 663088K->52935K(748032K), 0.0065380 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+344.754: Total time for which application threads were stopped: 0.0067140 seconds, Stopping threads took: 0.0000800 seconds
+345.864: Application time: 1.1098640 seconds
+345.864: [GC [PSYoungGen: 632782K->26099K(638464K)] 663132K->56457K(748032K), 0.0074450 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+345.871: Total time for which application threads were stopped: 0.0076020 seconds, Stopping threads took: 0.0000630 seconds
+346.451: Application time: 0.5797290 seconds
+346.451: [GC [PSYoungGen: 636354K->23216K(638464K)] 666712K->53583K(748032K), 0.0068910 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+346.458: Total time for which application threads were stopped: 0.0070720 seconds, Stopping threads took: 0.0000840 seconds
+348.279: Application time: 1.8212810 seconds
+348.280: [GC [PSYoungGen: 633387K->21856K(638464K)] 663753K->52230K(748032K), 0.0062960 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+348.286: Total time for which application threads were stopped: 0.0064660 seconds, Stopping threads took: 0.0000730 seconds
+349.480: Application time: 1.1943470 seconds
+349.480: [GC [PSYoungGen: 632071K->26860K(636928K)] 662445K->57242K(746496K), 0.0078650 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+349.488: Total time for which application threads were stopped: 0.0080650 seconds, Stopping threads took: 0.0001000 seconds
+350.208: Application time: 0.7193560 seconds
+350.208: [GC [PSYoungGen: 634958K->21839K(637952K)] 665340K->52229K(747520K), 0.0064400 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+350.214: Total time for which application threads were stopped: 0.0067780 seconds, Stopping threads took: 0.0002400 seconds
+351.856: Application time: 1.6414570 seconds
+351.856: [GC [PSYoungGen: 630576K->23977K(637440K)] 660966K->54375K(747008K), 0.0071110 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+351.863: Total time for which application threads were stopped: 0.0072910 seconds, Stopping threads took: 0.0000820 seconds
+352.886: Application time: 1.0231560 seconds
+352.886: [GC [PSYoungGen: 632765K->23978K(637952K)] 663163K->54384K(747520K), 0.0068920 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+352.893: Total time for which application threads were stopped: 0.0070600 seconds, Stopping threads took: 0.0000610 seconds
+353.774: Application time: 0.8807600 seconds
+353.774: [GC [PSYoungGen: 632799K->22536K(638464K)] 663205K->52942K(748032K), 0.0066760 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+353.781: Total time for which application threads were stopped: 0.0068480 seconds, Stopping threads took: 0.0000680 seconds
+355.272: Application time: 1.4905660 seconds
+355.272: [GC [PSYoungGen: 632688K->26115K(638464K)] 663095K->56529K(748032K), 0.0075540 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+355.279: Total time for which application threads were stopped: 0.0077150 seconds, Stopping threads took: 0.0000640 seconds
+356.483: Application time: 1.2033350 seconds
+356.483: [GC [PSYoungGen: 636343K->24690K(638464K)] 666757K->55113K(748032K), 0.0072870 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+356.490: Total time for which application threads were stopped: 0.0074680 seconds, Stopping threads took: 0.0000830 seconds
+357.356: Application time: 0.8654510 seconds
+357.358: [GC [PSYoungGen: 634906K->24673K(638464K)] 665328K->55104K(748032K), 0.0072270 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+357.365: Total time for which application threads were stopped: 0.0092100 seconds, Stopping threads took: 0.0018810 seconds
+358.551: Application time: 1.1865040 seconds
+358.552: [GC [PSYoungGen: 634884K->23993K(637952K)] 665314K->54431K(747520K), 0.0068690 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+358.558: Total time for which application threads were stopped: 0.0071490 seconds, Stopping threads took: 0.0001820 seconds
+359.873: Application time: 1.3150360 seconds
+359.874: [GC [PSYoungGen: 634183K->23249K(638464K)] 664621K->53695K(748032K), 0.0066660 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+359.880: Total time for which application threads were stopped: 0.0068340 seconds, Stopping threads took: 0.0000710 seconds
+360.910: Application time: 1.0298790 seconds
+360.910: [GC [PSYoungGen: 633470K->26131K(638464K)] 663916K->56585K(748032K), 0.0076900 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+360.918: Total time for which application threads were stopped: 0.0078580 seconds, Stopping threads took: 0.0000700 seconds
+361.776: Application time: 0.8576410 seconds
+361.776: [GC [PSYoungGen: 636351K->23232K(638976K)] 666806K->53695K(748544K), 0.0067500 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+361.783: Total time for which application threads were stopped: 0.0069140 seconds, Stopping threads took: 0.0000660 seconds
+363.216: Application time: 1.4336800 seconds
+363.216: [GC [PSYoungGen: 633449K->22553K(638976K)] 663911K->53023K(748544K), 0.0067400 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+363.223: Total time for which application threads were stopped: 0.0069310 seconds, Stopping threads took: 0.0000870 seconds
+364.507: Application time: 1.2834910 seconds
+364.507: [GC [PSYoungGen: 633441K->26115K(638976K)] 663911K->56593K(748544K), 0.0074350 secs] [Times: user=0.05 sys=0.01, real=0.01 secs] 
+364.514: Total time for which application threads were stopped: 0.0075890 seconds, Stopping threads took: 0.0000560 seconds
+365.077: Application time: 0.5629770 seconds
+365.077: [GC [PSYoungGen: 637090K->22552K(638976K)] 667568K->53038K(748544K), 0.0066940 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+365.084: Total time for which application threads were stopped: 0.0068950 seconds, Stopping threads took: 0.0000870 seconds
+366.829: Application time: 1.7446450 seconds
+366.829: [GC [PSYoungGen: 632739K->22552K(638976K)] 663225K->53046K(748544K), 0.0066250 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+366.836: Total time for which application threads were stopped: 0.0067910 seconds, Stopping threads took: 0.0000650 seconds
+367.852: Application time: 1.0166290 seconds
+367.852: [GC [PSYoungGen: 632761K->26828K(637952K)] 663255K->57330K(747520K), 0.0078610 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+367.860: Total time for which application threads were stopped: 0.0080590 seconds, Stopping threads took: 0.0000900 seconds
+368.691: Application time: 0.8305890 seconds
+368.691: [GC [PSYoungGen: 636354K->21871K(638464K)] 666856K->52381K(748032K), 0.0064580 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+368.698: Total time for which application threads were stopped: 0.0066330 seconds, Stopping threads took: 0.0000710 seconds
+370.397: Application time: 1.6997010 seconds
+370.397: [GC [PSYoungGen: 631309K->25418K(638464K)] 661819K->55937K(748032K), 0.0074220 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+370.405: Total time for which application threads were stopped: 0.0076070 seconds, Stopping threads took: 0.0000860 seconds
+371.458: Application time: 1.0527560 seconds
+371.458: [GC [PSYoungGen: 634954K->23978K(633856K)] 665472K->54504K(743424K), 0.0070700 secs] [Times: user=0.04 sys=0.00, real=0.01 secs] 
+371.465: Total time for which application threads were stopped: 0.0072550 seconds, Stopping threads took: 0.0000850 seconds
+372.364: Application time: 0.8992420 seconds
+372.364: [GC [PSYoungGen: 633468K->23961K(637952K)] 663994K->54495K(747520K), 0.0070310 secs] [Times: user=0.06 sys=0.00, real=0.00 secs] 
+372.372: Total time for which application threads were stopped: 0.0073740 seconds, Stopping threads took: 0.0002430 seconds
+373.927: Application time: 1.5556880 seconds
+373.927: [GC [PSYoungGen: 633416K->24690K(637952K)] 663950K->55232K(747520K), 0.0070710 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+373.934: Total time for which application threads were stopped: 0.0072330 seconds, Stopping threads took: 0.0000650 seconds
+374.989: Application time: 1.0547470 seconds
+374.989: [GC [PSYoungGen: 634195K->23978K(638464K)] 664737K->54528K(748032K), 0.0070900 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+374.996: Total time for which application threads were stopped: 0.0072700 seconds, Stopping threads took: 0.0000750 seconds
+376.003: Application time: 1.0069630 seconds
+376.004: [GC [PSYoungGen: 634212K->25418K(638464K)] 664762K->55976K(748032K), 0.0074950 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+376.011: Total time for which application threads were stopped: 0.0076810 seconds, Stopping threads took: 0.0000820 seconds
+377.209: Application time: 1.1981020 seconds
+377.209: [GC [PSYoungGen: 635635K->26163K(638464K)] 666193K->56729K(748032K), 0.0074550 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+377.217: Total time for which application threads were stopped: 0.0076260 seconds, Stopping threads took: 0.0000670 seconds
+378.543: Application time: 1.3266210 seconds
+378.544: [GC [PSYoungGen: 636340K->23313K(638976K)] 666906K->53887K(748544K), 0.0066570 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+378.550: Total time for which application threads were stopped: 0.0068240 seconds, Stopping threads took: 0.0000670 seconds
+379.519: Application time: 0.9687170 seconds
+379.519: [GC [PSYoungGen: 633528K->26147K(638976K)] 664102K->56729K(748544K), 0.0076660 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+379.527: Total time for which application threads were stopped: 0.0078610 seconds, Stopping threads took: 0.0000920 seconds
+380.481: Application time: 0.9544930 seconds
+380.481: [GC [PSYoungGen: 636371K->23217K(638976K)] 666953K->53807K(748544K), 0.0065270 secs] [Times: user=0.04 sys=0.00, real=0.00 secs] 
+380.488: Total time for which application threads were stopped: 0.0066950 seconds, Stopping threads took: 0.0000740 seconds
+381.845: Application time: 1.3566210 seconds
+381.845: [GC [PSYoungGen: 633437K->23962K(637952K)] 664027K->54560K(747520K), 0.0069330 secs] [Times: user=0.05 sys=0.00, real=0.00 secs] 
+381.852: Total time for which application threads were stopped: 0.0071160 seconds, Stopping threads took: 0.0000840 seconds
+383.158: Application time: 1.3061060 seconds
+383.158: [GC [PSYoungGen: 634159K->25402K(638464K)] 664757K->56008K(748032K), 0.0074330 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+383.166: Total time for which application threads were stopped: 0.0076170 seconds, Stopping threads took: 0.0000850 seconds
+383.541: Application time: 0.3751690 seconds
+383.541: Total time for which application threads were stopped: 0.0000920 seconds, Stopping threads took: 0.0000700 seconds
+384.176: Application time: 0.6352480 seconds
+384.176: [GC [PSYoungGen: 635647K->21823K(638976K)] 666254K->52438K(748544K), 0.0063310 secs] [Times: user=0.05 sys=0.00, real=0.01 secs] 
+384.183: Total time for which application threads were stopped: 0.0065010 seconds, Stopping threads took: 0.0000680 seconds
+384.405: Application time: 0.2223830 seconds
+384.405: Total time for which application threads were stopped: 0.0000960 seconds, Stopping threads took: 0.0000700 seconds
+385.216: Application time: 0.8106970 seconds
+385.216: Total time for which application threads were stopped: 0.0001090 seconds, Stopping threads took: 0.0000700 seconds
+385.342: Application time: 0.1262080 seconds
+385.342: Total time for which application threads were stopped: 0.0000740 seconds, Stopping threads took: 0.0000490 seconds
+386.065: Application time: 0.7230310 seconds
+386.065: Total time for which application threads were stopped: 0.0000760 seconds, Stopping threads took: 0.0000390 seconds
+386.083: Application time: 0.0179790 seconds
+386.083: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000200 seconds
+386.332: Application time: 0.2485960 seconds
+386.332: Total time for which application threads were stopped: 0.0000390 seconds, Stopping threads took: 0.0000090 seconds
+386.332: Application time: 0.0000200 seconds
+386.332: Total time for which application threads were stopped: 0.0000070 seconds, Stopping threads took: 0.0000030 seconds
+386.582: Application time: 0.2498180 seconds
+386.582: Total time for which application threads were stopped: 0.0000540 seconds, Stopping threads took: 0.0000110 seconds
+Heap
+ PSYoungGen      total 638976K, used 564707K [0x00000000d7480000, 0x0000000100000000, 0x0000000100000000)
+  eden space 610816K, 88% used [0x00000000d7480000,0x00000000f86a8c88,0x00000000fc900000)
+  from space 28160K, 77% used [0x00000000fe480000,0x00000000ff9cff90,0x0000000100000000)
+  to   space 28160K, 0% used [0x00000000fc900000,0x00000000fc900000,0x00000000fe480000)
+ ParOldGen       total 109568K, used 30614K [0x0000000085e00000, 0x000000008c900000, 0x00000000d7480000)
+  object space 109568K, 27% used [0x0000000085e00000,0x0000000087be5898,0x000000008c900000)
+ PSPermGen       total 21504K, used 13531K [0x0000000080c00000, 0x0000000082100000, 0x0000000085e00000)
+  object space 21504K, 62% used [0x0000000080c00000,0x0000000081936d48,0x0000000082100000)
+386.582: Application time: 0.0001540 seconds
