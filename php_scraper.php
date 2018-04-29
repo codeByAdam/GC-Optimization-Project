@@ -1,7 +1,7 @@
 <?php
 
 $PATH = 'benchmarks/SPECjvm2008/results/gc/';
-
+ini_set('memory_limit', '-1');
 //Data Object
 $GC = [];
 
@@ -9,6 +9,7 @@ $GC = [];
 $rLabels = '/\[(?<label>\w+)\s?: (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)(, (?<ltime>\d+(.\d+)?) secs)?/';
 $rGCTime = '/\], (?<gctime>\d+(.\d+)?) secs\]/';
 $rTime = '/\[Times: user=(?<user>\d+(.\d+)?) sys=(?<sys>\d+(.\d+)?), real=(?<real>\d+(.\d+)?) secs\]/';
+$rGCmem = '/\] (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)/';
 /*$l = '15.189: [GC15.189: [DefNew: 37544K->4148K(37568K), 0.0114770 secs]15.200: [Tenured: 95846K->95862K(95872K), 0.0081260 secs] 100126K->99994K(133440K), [Perm : 5103K->5103K(21248K)], 0.0197350 secs] [Times: user=0.02 sys=0.01, real=0.02 secs] ';
 if(preg_match_all($rLabels, $l, $m)){
 	print_r($m);
@@ -99,18 +100,29 @@ foreach($files as $file) {
 			
 		}
 
+		$info = [];
+
 		if(preg_match($rGCTime, $line, $matches)){
-			$r['gctime'] = $matches['gctime'];
+			$info['gctime'] = $matches['gctime'];
+		}
+
+		if(preg_match($rGCmem, $line, $matches)){
+			$info['from'] = $matches['from'];
+			$info['to'] = $matches['to'];
+			$info['total'] = $matches['total'];
 		}
 
 		if(preg_match($rTime, $line, $matches)){
-			$r['user'] = $matches['user'];
-			$r['sys'] = $matches['sys'];
-			$r['real'] = $matches['real'];
+			$info['user'] = $matches['user'];
+			$info['sys'] = $matches['sys'];
+			$info['real'] = $matches['real'];
 		}
 
+		$r['info'] = $info;
+
 		//append run object to array of runs
-		array_push($obj['gc_runs'], $r);
+		if(sizeof($r) > 0)
+			array_push($obj['gc_runs'], $r);
 
 	}
 
@@ -125,13 +137,15 @@ foreach($files as $file) {
 		'PSPermGen_count' => $cPSPermGen
 	];
 
-	$f = fopen('GCObject.json', 'w');
-	fwrite($f, json_encode($GC));
-	fclose($f);
-	
 	//Break if you only want to run the frist file
-	break;
+	//break;
 }
 
+//make seperate files for each benchmark
+foreach($GC as $k => $g){
+	$f = fopen('data/' . $k . '.json', 'w');
+	fwrite($f, json_encode($g));
+	fclose($f);
+}
 
 ?>
