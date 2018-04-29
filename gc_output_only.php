@@ -2,7 +2,7 @@
 
 $PATH = 'benchmarks/SPECjvm2008/results/gc/';
 
-$FILE = 'CMSParallelRemarkEnabled_scimark.fft.large';
+$FILE = 'CMSParallelRemarkEnabled_compiler.compiler';
 
 $f = fopen($PATH . $FILE, "r");
 

@@ -9,7 +9,9 @@ $GC = [];
 $rLabels = '/\[(?<label>\w+)\s?: (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)(, (?<ltime>\d+(.\d+)?) secs)?/';
 $rGCTime = '/\], (?<gctime>\d+(.\d+)?) secs\]/';
 $rTime = '/\[Times: user=(?<user>\d+(.\d+)?) sys=(?<sys>\d+(.\d+)?), real=(?<real>\d+(.\d+)?) secs\]/';
-$rGCmem = '/\] (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)/';
+$rGCmem = '/\] (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)(, (?<gctime>\d(\.\d+)?) secs)?/';
+$rHeapLabel = '/(?<label>(\w+ )+) +total (?<total>\d+(.\d+)?)K, used (?<used>\d+(\.\d+)?)K/';
+$rHeapSub = '/(?<name>(\w+ +)+)(?<size>\d+(\.\d+)?)K, +(?<percent>\d+(\.\d+)?)%/';
 /*$l = '15.189: [GC15.189: [DefNew: 37544K->4148K(37568K), 0.0114770 secs]15.200: [Tenured: 95846K->95862K(95872K), 0.0081260 secs] 100126K->99994K(133440K), [Perm : 5103K->5103K(21248K)], 0.0197350 secs] [Times: user=0.02 sys=0.01, real=0.02 secs] ';
 if(preg_match_all($rLabels, $l, $m)){
 	print_r($m);
@@ -54,8 +56,12 @@ foreach($files as $file) {
 	$f = fopen($PATH . $file, "r");
 	//echo $PATH . $file . "\n";
 	
-	//set run count
-	$rc = 0;
+	//in heap info
+	$heap = false;
+
+	//make heap object
+	$h = [];
+	$label = null;
 
 	//Loop through lines of file
 	while(! feof($f)){
@@ -63,6 +69,29 @@ foreach($files as $file) {
 	
 		//If not GC line, move on
 		if(!preg_match('/GC/', $line)){
+			if($heap){
+				if(preg_match('/^ \w/', $line)){
+					if(preg_match($rHeapLabel, $line, $matches)){
+						$label = $matches['label'];
+						$h[$label] = [
+							'total' => $matches['total'],
+							'used' => $matches['used']
+						];
+					}
+				}else if(preg_match('/^  \w/', $line)){
+					if(preg_match($rHeapSub, $line, $matches)){
+						$h[$label][$matches['name']] = [
+							'size' => $matches['size'],
+							'percent' => $matches['percent']
+						];
+					}
+				}
+			}else{
+				if(preg_match('/Heap/', $line, $matches)){
+					$heap = true;
+				}
+			}
+
 			continue;
 		}
 
@@ -110,6 +139,10 @@ foreach($files as $file) {
 			$info['from'] = $matches['from'];
 			$info['to'] = $matches['to'];
 			$info['total'] = $matches['total'];
+
+			if($matches['gctime'] != null){
+				$info['gctime'] = $matches['gctime'];
+			}
 		}
 
 		if(preg_match($rTime, $line, $matches)){
@@ -118,13 +151,17 @@ foreach($files as $file) {
 			$info['real'] = $matches['real'];
 		}
 
-		$r['info'] = $info;
+		if(sizeof($info) > 0)
+			$r['info'] = $info;
 
 		//append run object to array of runs
 		if(sizeof($r) > 0)
 			array_push($obj['gc_runs'], $r);
 
 	}
+	//Append heap info to object
+	if(sizeof($h) > 0)
+		$obj['heap'] = $h;
 
 	//close file
 	fclose($f);
@@ -138,7 +175,7 @@ foreach($files as $file) {
 	];
 
 	//Break if you only want to run the frist file
-	//break;
+	break;
 }
 
 //make seperate files for each benchmark
