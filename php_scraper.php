@@ -175,7 +175,7 @@ foreach($files as $file) {
 	];
 
 	//Break if you only want to run the frist file
-	break;
+	//break;
 }
 
 //make seperate files for each benchmark
