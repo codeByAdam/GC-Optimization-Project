@@ -13,6 +13,7 @@ $rGCmem = '/\] (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)
 $rHeapLabel = '/(?<label>(\w+ )+) +total (?<total>\d+(.\d+)?)K, used (?<used>\d+(\.\d+)?)K/';
 $rHeapSub = '/(?<name>(\w+ +)+)(?<size>\d+(\.\d+)?)K, +(?<percent>\d+(\.\d+)?)%/';
 $rFullGC = '/\[Full GC/';
+$rTimeStamp = '/^(?<stamp>\d+(\.\d+)?):/';
 
 $files = scandir($PATH);
 foreach($files as $file) {
@@ -55,9 +56,17 @@ foreach($files as $file) {
 	$h = [];
 	$label = null;
 
+	//final timestamp
+	$finalTimeStamp = null;
+
 	//Loop through lines of file
 	while(! feof($f)){
 		$line = fgets($f);
+
+		//get last timestamp
+		if(preg_match($rTimeStamp, $line, $matches)){
+			$finalTimeStamp = $matches['stamp'];
+		}
 	
 		//If not GC line, move on
 		if(!preg_match('/GC/', $line)){
@@ -161,6 +170,9 @@ foreach($files as $file) {
 	foreach($counts as $l => $c){
 		$obj['stats'][$l] = $c;
 	}
+
+	//set final timestamp
+	$obj['stats']['final_time_stamp'] = $finalTimeStamp;
 
 	//Break if you only want to run the frist file
 	//break;
