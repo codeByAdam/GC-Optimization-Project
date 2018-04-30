@@ -16,8 +16,9 @@ foreach($files as $file){
 
     $json = json_decode($str, true);
 
-    foreach($json as $alg => $d){
 
+    foreach($json as $alg => $d){
+    
         if(!isset($frequency[$alg])){
             $frequency[$alg] = 0;
         }

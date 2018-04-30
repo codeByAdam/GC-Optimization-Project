@@ -44,7 +44,7 @@ foreach($times as $alg => $counts){
     $avg[$alg] = $counts / $numBench;
     $avg_stamps[$alg] = $stamps[$alg] / $numBench;
     // to get throughput subtract from 100
-    $thr[$alg] = 100 - (($avg[$alg] / $avg_stamps[$alg]) * 100.0);
+    $thr[$alg] = (($avg[$alg] / $avg_stamps[$alg]) * 100.0);
 
     array_push($x, $alg);
     array_push($y, $thr[$alg]);
