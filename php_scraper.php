@@ -14,6 +14,7 @@ $rHeapLabel = '/(?<label>(\w+ )+) +total (?<total>\d+(.\d+)?)K, used (?<used>\d+
 $rHeapSub = '/(?<name>(\w+ +)+)(?<size>\d+(\.\d+)?)K, +(?<percent>\d+(\.\d+)?)%/';
 $rFullGC = '/\[Full GC/';
 $rTimeStamp = '/^(?<stamp>\d+(\.\d+)?):/';
+$rG1GC = '/(\d+(\.\d+)?): \[(?!GC concurrent).+, (?<gctime>\d+(\.\d+)?) secs/';
 
 $files = scandir($PATH);
 foreach($files as $file) {
@@ -102,6 +103,23 @@ foreach($files as $file) {
 		
 		//make run object
 		$r = [];
+	
+		if($com == 'UseG1GC'){
+			
+			$info = [];
+
+			if(preg_match($rG1GC, $line, $matches)){
+				$info['gctime'] = $matches['gctime'];
+			}
+
+			if(sizeof($info) > 0)
+				$r['info'] = $info;
+
+			if(sizeof($r) > 0)
+				array_push($obj['gc_runs'], $r);
+
+			continue;
+		}
 
 		if(preg_match_all($rLabels, $line, $matches)){
 

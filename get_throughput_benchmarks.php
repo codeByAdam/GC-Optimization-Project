@@ -9,6 +9,7 @@ $numBench = sizeof($files) - 2;
 
 $marks = [];
 
+
 foreach($files as $file){
     $f = explode('.json', $file);
     $f = $f[0];
@@ -46,20 +47,35 @@ foreach($files as $file){
 $traces = [];
 $x = [];
 
+$ass = [];
+
 foreach($marks as $bench => $m){
     array_push($x, $bench);
 }
 
 foreach($marks as $bench => $m){
-    $y = [];
+   
     foreach($m as $alg => $d){
-        array_push($y, 100 - ($d['gc_time'] / $d['total_time'] * 100));
+
+        if(!isset($ass[$alg])){
+            $ass[$alg] = [];
+        }
+
+        array_push($ass[$alg], ($d['gc_time'] / $d['total_time'] * 100));
     }
+   
+}
+
+foreach($ass as $alg => $d){
     array_push($traces, [
         'x' => $x,
-        'y' => $y
+        'y' => $d,
+        'name' => $alg,
+        'type' => 'bar'
     ]);
 }
+
+
 
 print json_encode($traces);
 
