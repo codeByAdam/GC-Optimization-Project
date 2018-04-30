@@ -2,7 +2,7 @@
 
 $PATH = 'benchmarks/SPECjvm2008/results/gc/';
 
-$FILE = 'CMSParallelRemarkEnabled_compiler.compiler';
+$FILE = 'UseParallelGC_compiler.compiler';
 
 $f = fopen($PATH . $FILE, "r");
 

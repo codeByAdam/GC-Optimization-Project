@@ -12,12 +12,7 @@ $rTime = '/\[Times: user=(?<user>\d+(.\d+)?) sys=(?<sys>\d+(.\d+)?), real=(?<rea
 $rGCmem = '/\] (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\)(, (?<gctime>\d(\.\d+)?) secs)?/';
 $rHeapLabel = '/(?<label>(\w+ )+) +total (?<total>\d+(.\d+)?)K, used (?<used>\d+(\.\d+)?)K/';
 $rHeapSub = '/(?<name>(\w+ +)+)(?<size>\d+(\.\d+)?)K, +(?<percent>\d+(\.\d+)?)%/';
-/*$l = '15.189: [GC15.189: [DefNew: 37544K->4148K(37568K), 0.0114770 secs]15.200: [Tenured: 95846K->95862K(95872K), 0.0081260 secs] 100126K->99994K(133440K), [Perm : 5103K->5103K(21248K)], 0.0197350 secs] [Times: user=0.02 sys=0.01, real=0.02 secs] ';
-if(preg_match_all($rLabels, $l, $m)){
-	print_r($m);
-}*/
-
-$rDefNew = '/(?<flagTime>\d+(.\d+)?): \[GC\d+(.\d+): \[DefNew: (?<from>\d+(.\d+)?)K->(?<to>\d+(.\d+)?)K\((?<total>\d+(.\d+)?)K\), (?<time>\d+(.\d+)?) secs] (?<GCfrom>\d+(.\d+)?)K->(?<GCto>\d+(.\d+)?)K\((?<GCtotal>\d+(.\d+)?)K\), (?<GCtime>\d+(.\d+)?) secs\] \[Times: user=(?<userTime>\d+(.\d+)?) sys=(?<sysTime>\d+(.\d+)?), real=(?<realTime>\d+(.\d+)?) secs\]/';
+$rFullGC = '/\[Full GC/';
 
 $files = scandir($PATH);
 foreach($files as $file) {
@@ -47,10 +42,7 @@ foreach($files as $file) {
 	$obj['gc_runs'] = [];
 	
 	//Set counters
-	$cDefNew = 0;
-	$cPSYoungGen = 0;
-	$cPSOldGen = 0;
-	$cPSPermGen = 0;
+	$counts = [];
 	
 	//Open File
 	$f = fopen($PATH . $file, "r");
@@ -95,20 +87,6 @@ foreach($files as $file) {
 			continue;
 		}
 
-		//Iterate counts
-		if(preg_match('/DefNew/', $line)){
-			$cDefNew++;
-		}
-		if(preg_match('/PSYoungGen/', $line)){
-			$cPSYoungGen++;
-		}
-		if(preg_match('/PSOldGen/', $line)){
-			$cPSOldGen++;
-		}
-		if(preg_match('/PSPermGen/', $line)){
-			$cPSPermGen++;
-		}
-
 		/* 
 			Find GC Info in line
 		*/
@@ -125,11 +103,23 @@ foreach($files as $file) {
 					'total'	=> $matches['total'][$k],
 					'time' 	=> $matches['time'][$k],
 				];
+
+				//increment counter for label
+				if(!isset($counts[$label])){
+					//initailize it
+					$counts[$label] = 1;
+				}else{
+					$counts[$label]++;
+				}
 			}
 			
 		}
 
 		$info = [];
+
+		if(preg_match($rFullGC, $line)){
+			$info['full'] = true;
+		}
 
 		if(preg_match($rGCTime, $line, $matches)){
 			$info['gctime'] = $matches['gctime'];
@@ -167,12 +157,10 @@ foreach($files as $file) {
 	fclose($f);
 
 	//Set stats in obj
-	$obj['stats'] = [
-		'DefNew_count' => $cDefNew,
-		'PSYoungGen_count' => $cPSYoungGen,
-		'PSOldGen_count' => $cPSOldGen,
-		'PSPermGen_count' => $cPSPermGen
-	];
+	$obj['stats'] = [];
+	foreach($counts as $l => $c){
+		$obj['stats'][$l] = $c;
+	}
 
 	//Break if you only want to run the frist file
 	//break;
