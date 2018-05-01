@@ -15,6 +15,7 @@ $rHeapSub = '/(?<name>(\w+ +)+)(?<size>\d+(\.\d+)?)K, +(?<percent>\d+(\.\d+)?)%/
 $rFullGC = '/\[Full GC/';
 $rTimeStamp = '/^(?<stamp>\d+(\.\d+)?):/';
 $rG1GC = '/(\d+(\.\d+)?): \[(?!GC concurrent).+, (?<gctime>\d+(\.\d+)?) secs/';
+$rG1Heap = '/Heap: (?<from>\d+(\.\d+)?)(?<funit>\w)\((\d+(\.\d+)?)(\w)\)->(?<to>\d+(\.\d+)?)(?<tunit>\w)\((?<total>\d+(\.\d+)?)(?<totalunit>\w)\)/';
 
 $files = scandir($PATH);
 foreach($files as $file) {
@@ -89,12 +90,12 @@ foreach($files as $file) {
 					}
 				}
 			}else{
-				if(preg_match('/Heap/', $line, $matches)){
+				if(preg_match('/^Heap/', $line, $matches)){
 					$heap = true;
 				}
 			}
 
-			continue;
+			//continue;
 		}
 
 		/* 
@@ -108,8 +109,27 @@ foreach($files as $file) {
 			
 			$info = [];
 
-			if(preg_match($rG1GC, $line, $matches)){
+			/*if(preg_match($rG1GC, $line, $matches)){
 				$info['gctime'] = $matches['gctime'];
+			}*/
+
+			if(preg_match($rG1Heap, $line, $matches)){
+				//echo "match\n";
+				//check units and convert to K
+				if($matches['funit'] == 'M'){
+					$matches['from'] = $matches['from'] * 1000.0;
+				}
+				if($matches['tunit'] == 'M'){
+					$matches['to'] = $matches['to'] * 1000.0;
+				}
+				if($matches['totalunit'] == 'M'){
+					$matches['total'] = $matches['total'] * 1000.0;
+				}
+
+				$info['from'] = $matches['from'];
+				$info['to'] = $matches['to'];
+				$info['total'] = $matches['total'];
+				
 			}
 
 			if(sizeof($info) > 0)

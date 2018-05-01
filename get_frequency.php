@@ -5,6 +5,7 @@ $files = scandir($PATH);
 $frequency = [];
 $avgs = [];
 $numBench = sizeof($files) - 2;
+$stamps = [];
 foreach($files as $file){
     $f = explode('.json', $file);
 
@@ -24,7 +25,7 @@ foreach($files as $file){
         }
 
         $frequency[$alg] += sizeof($d['gc_runs']);
-        
+        $stamps[$alg] += $d['stats']['final_time_stamp'];
         
     }
     //var_dump($frequency);
@@ -33,10 +34,14 @@ foreach($files as $file){
 $x = [];
 $y = [];
 foreach($frequency as $alg => $counts){
-    $avg[$alg] = $counts / $numBench;
+    echo $stamps[$alg] / $numBench;
+    echo "\n";
+    $avg[$alg] = ($counts / $numBench) / (($stamps[$alg] / $numBench) / 60);
     array_push($x, $alg);
     array_push($y, $avg[$alg]);
 }
+
+var_dump($stamps);
 
 print json_encode($x);
 print json_encode($y);
