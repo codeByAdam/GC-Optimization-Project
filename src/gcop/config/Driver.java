@@ -51,7 +51,7 @@ public class Driver {
                 cmd.add("-XX:-UseAdaptiveSizePolicy");
                 //JSONObject ben = (JSONObject) jsonObj.get(types[i]);
                 cmd.add("-Xmx" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / 2) + "k");
-                cmd.add("-Xms" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) ) + "k");
+                cmd.add("-Xms" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / 2) + "k");
 
                 cmd.add("-Xloggc:results/gc/" + types[i] + "_" + benchmarks[j]);
                 cmd.add("-jar");
@@ -60,7 +60,7 @@ public class Driver {
 
                 System.out.println(cmd);
 
-                /*ProcessBuilder pb = new ProcessBuilder(cmd);
+                ProcessBuilder pb = new ProcessBuilder(cmd);
                 try {
                     Process p = pb.start();
                     BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
@@ -74,7 +74,7 @@ public class Driver {
                     e.printStackTrace();
                 } catch (InterruptedException ee) {
                     ee.printStackTrace();
-                }*/
+                }
             }
 
         }
