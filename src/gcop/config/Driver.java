@@ -13,7 +13,7 @@ import org.json.simple.parser.ParseException;
 
 public class Driver {
 
-    public Driver(){
+    public Driver(String[] args){
 
         Type type = new Type();
         Benchmark benchmark = new Benchmark();
@@ -48,8 +48,8 @@ public class Driver {
                 //these change based on the type of run
                 cmd.add("-XX:-UseAdaptiveSizePolicy");
                 //JSONObject ben = (JSONObject) jsonObj.get(types[i]);
-                cmd.add("-Xmx" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / 2) + "k");
-                cmd.add("-Xms" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / 2) + "k");
+                cmd.add("-Xmx" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / Integer.parseInt(args[0])) + "k");
+                cmd.add("-Xms" + ((int)Double.parseDouble(ben.get(benchmarks[j]).toString()) / Integer.parseInt(args[0])) + "k");
 
                 cmd.add("-Xloggc:results/gc/" + types[i] + "_" + benchmarks[j]);
                 cmd.add("-jar");
@@ -80,6 +80,6 @@ public class Driver {
     }
 
     public static void main(String args[]){
-        new Driver();
+        new Driver(args);
     }
 }
